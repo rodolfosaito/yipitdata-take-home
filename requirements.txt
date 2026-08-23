@@ -1,0 +1,6 @@
+pandas>=2.2
+numpy>=1.26
+duckdb>=1.0
+rapidfuzz>=3.0
+sentence-transformers>=2.2
+pytest>=7.0

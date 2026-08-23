@@ -1,0 +1,22 @@
+company_name,founded_year,headquarters,employee_count,industry,industry_std,is_public,stock_ticker,company_size_category,_source_row_number,_source_file,_loaded_at
+OpenAI,2006,"Austin, TX",12793,Data Analytics,DATA_ANALYTICS,False,OPEN,Medium,1,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Anthropic,2006,"San Francisco, CA",43747,FinTech,FINTECH,False,,Large,2,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Google DeepMind,2017,"Austin, TX",24274,Data Analytics,DATA_ANALYTICS,False,,Medium,3,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Meta AI,2001,"Seattle, WA",20240,Data Analytics,DATA_ANALYTICS,True,,Medium,4,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Microsoft,2018,"Austin, TX",48646,Data Analytics,DATA_ANALYTICS,False,,Large,5,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Amazon Web Services,2015,"Berlin, Germany",27826,SaaS,SOFTWARE,False,,Medium,6,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Tesla,2008,"London, UK",5691,Cloud Computing,CLOUD,True,,Small,7,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+NVIDIA,2017,"London, UK",22031,AI/ML,AI_ML,False,,Medium,8,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Databricks,2003,"Berlin, Germany",17962,Data Analytics,DATA_ANALYTICS,True,DATA,Medium,9,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Snowflake,2012,"London, UK",49545,Cloud Computing,CLOUD,True,,Large,10,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Stripe,2002,"Seattle, WA",36348,Data Analytics,DATA_ANALYTICS,True,STRI,Large,11,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Airbnb,1999,"London, UK",19967,Data Analytics,DATA_ANALYTICS,False,,Medium,12,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Uber,2015,"San Francisco, CA",10144,FinTech,FINTECH,False,UBER,Medium,13,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+SpaceX,2016,"Berlin, Germany",31018,AI/ML,AI_ML,False,,Large,14,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Palantir,2005,"Berlin, Germany",42306,Cloud Computing,CLOUD,True,,Large,15,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Cloudflare,1998,"Austin, TX",4422,Cybersecurity,SECURITY,False,CLOU,Small,16,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+MongoDB,2008,"Austin, TX",16952,SaaS,SOFTWARE,False,MONG,Medium,17,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Elastic,2016,"San Francisco, CA",24508,Cybersecurity,SECURITY,True,ELAS,Medium,18,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Confluent,1995,"London, UK",3884,Cloud Computing,CLOUD,False,,Small,19,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+DataRobot,2012,"New York, NY",23471,Cloud Computing,CLOUD,True,,Medium,20,company_metadata.json,2026-08-22T21:58:37.269504+00:00
+Scale AI,2003,"Berlin, Germany",23379,AI/ML,AI_ML,False,,Medium,21,company_metadata.json,2026-08-22T21:58:37.269504+00:00

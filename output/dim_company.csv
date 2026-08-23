@@ -1,0 +1,28 @@
+company_key,company_name,metadata_matched,founded_year,headquarters,employee_count,industry,industry_std,is_public,stock_ticker,company_size_category
+Airbnb,Airbnb,True,1999,"London, UK",19967,Data Analytics,DATA_ANALYTICS,False,,Medium
+Amazon Web Services,Amazon Web Services,True,2015,"Berlin, Germany",27826,SaaS,SOFTWARE,False,,Medium
+Anthropic,Anthropic,True,2006,"San Francisco, CA",43747,FinTech,FINTECH,False,,Large
+Cloudflare,Cloudflare,True,1998,"Austin, TX",4422,Cybersecurity,SECURITY,False,CLOU,Small
+Cohere,Cohere,False,,,,,,,,
+Confluent,Confluent,True,1995,"London, UK",3884,Cloud Computing,CLOUD,False,,Small
+DataRobot,DataRobot,True,2012,"New York, NY",23471,Cloud Computing,CLOUD,True,,Medium
+Databricks,Databricks,True,2003,"Berlin, Germany",17962,Data Analytics,DATA_ANALYTICS,True,DATA,Medium
+Elastic,Elastic,True,2016,"San Francisco, CA",24508,Cybersecurity,SECURITY,True,ELAS,Medium
+Google DeepMind,Google DeepMind,True,2017,"Austin, TX",24274,Data Analytics,DATA_ANALYTICS,False,,Medium
+Hugging Face,Hugging Face,False,,,,,,,,
+Meta AI,Meta AI,True,2001,"Seattle, WA",20240,Data Analytics,DATA_ANALYTICS,True,,Medium
+Microsoft,Microsoft,True,2018,"Austin, TX",48646,Data Analytics,DATA_ANALYTICS,False,,Large
+Mistral AI,Mistral AI,False,,,,,,,,
+MongoDB,MongoDB,True,2008,"Austin, TX",16952,SaaS,SOFTWARE,False,MONG,Medium
+NVIDIA,NVIDIA,True,2017,"London, UK",22031,AI/ML,AI_ML,False,,Medium
+OpenAI,OpenAI,True,2006,"Austin, TX",12793,Data Analytics,DATA_ANALYTICS,False,OPEN,Medium
+Palantir,Palantir,True,2005,"Berlin, Germany",42306,Cloud Computing,CLOUD,True,,Large
+Perplexity AI,Perplexity AI,False,,,,,,,,
+Scale AI,Scale AI,True,2003,"Berlin, Germany",23379,AI/ML,AI_ML,False,,Medium
+Snowflake,Snowflake,True,2012,"London, UK",49545,Cloud Computing,CLOUD,True,,Large
+SpaceX,SpaceX,True,2016,"Berlin, Germany",31018,AI/ML,AI_ML,False,,Large
+Stripe,Stripe,True,2002,"Seattle, WA",36348,Data Analytics,DATA_ANALYTICS,True,STRI,Large
+Tesla,Tesla,True,2008,"London, UK",5691,Cloud Computing,CLOUD,True,,Small
+The Boring Company / SpaceX,The Boring Company / SpaceX,False,,,,,,,,
+Uber,Uber,True,2015,"San Francisco, CA",10144,FinTech,FINTECH,False,UBER,Medium
+xAI,xAI,False,,,,,,,,

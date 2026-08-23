@@ -1,0 +1,751 @@
+article_id,company_key,company_name_raw,company_matched,company_match_method,company_match_score,published_date,date_status,pub_year,pub_quarter,pub_month,category_std,category_raw,revenue_raw,arr_usd,arr_status,currency_detected,company_age,_source_row_number,_loaded_at
+ART0001,Scale AI,Scale AI,True,exact,100.0,2020-02-21,parsed,2020,1,2,FINTECH,Financial Technology,,,missing,,17,1,2026-08-22T21:58:37.269504+00:00
+ART0002,DataRobot,DataRobot,True,exact,100.0,2023-02-23,parsed,2023,1,2,SOFTWARE,Software,"£244,094,488",310000000,parsed,GBP,11,2,2026-08-22T21:58:37.269504+00:00
+ART0003,Meta AI,Meta AI,True,exact,100.0,2022-02-17,parsed,2022,1,2,DATA_ANALYTICS,Analytics,,,missing,,21,3,2026-08-22T21:58:37.269504+00:00
+ART0004,Confluent,Confluent,True,exact,100.0,2023-12-13,parsed,2023,4,12,AI_ML,Artificial Intelligence,$980.0M,980000000,parsed,USD,28,4,2026-08-22T21:58:37.269504+00:00
+ART0005,Amazon Web Services,Amazon Web Services,True,exact,100.0,2021-12-28,parsed,2021,4,12,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,6,5,2026-08-22T21:58:37.269504+00:00
+ART0006,NVIDIA,NVIDIA,True,exact,100.0,2021-10-26,parsed,2021,4,10,FINTECH,FinTech,$16.800B,16800000000,parsed,USD,4,6,2026-08-22T21:58:37.269504+00:00
+ART0007,Tesla,Tesla,True,exact,100.0,2022-10-19,parsed,2022,4,10,SECURITY,Security,75000.0M USD,75000000000,parsed,USD,14,7,2026-08-22T21:58:37.269504+00:00
+ART0008,Microsoft,Microsoft,True,exact,100.0,2022-10-07,parsed,2022,4,10,AI_ML,Artificial Intelligence,,,missing,,4,8,2026-08-22T21:58:37.269504+00:00
+ART0009,MongoDB,MongoDB,True,exact,100.0,2023-02-07,parsed,2023,1,2,AI_ML,AI & ML,$1.480 billion,1480000000,parsed,USD,15,9,2026-08-22T21:58:37.269504+00:00
+ART0010,MongoDB,MongoDB,True,exact,100.0,2022-11-05,parsed,2022,4,11,FINTECH,Finance,"€1,254,545,455",1380000000,parsed,EUR,14,10,2026-08-22T21:58:37.269504+00:00
+ART0011,OpenAI,OpenAI,True,exact,100.0,2021-10-25,parsed,2021,4,10,AI_ML,AI/ML,$320.0M,320000000,parsed,USD,15,11,2026-08-22T21:58:37.269504+00:00
+ART0012,Cloudflare,Cloudflare,True,exact,100.0,2022-12-26,parsed,2022,4,12,CLOUD,Cloud Computing,N/A,,missing,,24,12,2026-08-22T21:58:37.269504+00:00
+ART0013,Uber,Uber,True,exact,100.0,2023-08-23,parsed,2023,3,8,SECURITY,Security,$32.000B,32000000000,parsed,USD,8,13,2026-08-22T21:58:37.269504+00:00
+ART0014,Confluent,Confluent,True,exact,100.0,2020-01-15,parsed,2020,1,1,AI_ML,Artificial Intelligence,$260.0M,260000000,parsed,USD,25,14,2026-08-22T21:58:37.269504+00:00
+ART0015,Tesla,Tesla,True,exact,100.0,2020-09-27,parsed,2020,3,9,SOFTWARE,Enterprise Software,$25.200B,25200000000,parsed,USD,12,15,2026-08-22T21:58:37.269504+00:00
+ART0016,Palantir,Palantir,True,exact,100.0,2020-04-20,parsed,2020,2,4,AI_ML,AI & ML,$1.030B,1030000000,parsed,USD,15,16,2026-08-22T21:58:37.269504+00:00
+ART0017,SpaceX,SpaceX,True,exact,100.0,2021-07-24,parsed,2021,3,7,FINTECH,FinTech,$3.900B,3900000000,parsed,USD,5,17,2026-08-22T21:58:37.269504+00:00
+ART0018,Tesla,Tesla,True,exact,100.0,2020-04-30,parsed,2020,2,4,DATA_ANALYTICS,Big Data,,,missing,,12,18,2026-08-22T21:58:37.269504+00:00
+ART0019,Confluent,Confluent,True,exact,100.0,2023-01-15,parsed,2023,1,1,DATA_ANALYTICS,Data Analytics,"$790,000,000",790000000,parsed,USD,28,19,2026-08-22T21:58:37.269504+00:00
+ART0020,DataRobot,DataRobot,True,exact,100.0,2023-10-14,parsed,2023,4,10,DATA_ANALYTICS,Big Data,"£299,212,598",379999999,parsed,GBP,11,20,2026-08-22T21:58:37.269504+00:00
+ART0021,Databricks,Databricks,True,exact,100.0,2023-10-03,parsed,2023,4,10,DATA_ANALYTICS,Data Analytics,"¥360,000,000,000",2400000000,parsed,JPY,20,21,2026-08-22T21:58:37.269504+00:00
+ART0022,DataRobot,DataRobot,True,exact,100.0,2020-07-23,parsed,2020,3,7,SOFTWARE,Software,$170.0M,170000000,parsed,USD,8,22,2026-08-22T21:58:37.269504+00:00
+ART0023,Elastic,Elastic,True,exact,100.0,2021-09-11,parsed,2021,3,9,SOFTWARE,SaaS,$0.930 billion,930000000,parsed,USD,5,23,2026-08-22T21:58:37.269504+00:00
+ART0024,Databricks,Databricks,True,exact,100.0,2023-05-23,parsed,2023,2,5,DATA_ANALYTICS,Data Analytics,$2.150B,2150000000,parsed,USD,20,24,2026-08-22T21:58:37.269504+00:00
+ART0025,OpenAI,OpenAI,True,exact,100.0,2020-09-24,parsed,2020,3,9,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,14,25,2026-08-22T21:58:37.269504+00:00
+ART0026,Anthropic,Anthropic,True,exact,100.0,2023-04-07,parsed,2023,2,4,CLOUD,Cloud Computing,Not disclosed,,not_disclosed,,17,26,2026-08-22T21:58:37.269504+00:00
+ART0027,Airbnb,Airbnb,True,exact,100.0,2022-04-12,parsed,2022,2,4,CLOUD,Cloud Computing,,,missing,,23,27,2026-08-22T21:58:37.269504+00:00
+ART0028,NVIDIA,NVIDIA,True,exact,100.0,2020-11-22,parsed,2020,4,11,AI_ML,AI & ML,$12.600B,12600000000,parsed,USD,3,28,2026-08-22T21:58:37.269504+00:00
+ART0029,NVIDIA,NVIDIA,True,exact,100.0,2023-09-13,parsed,2023,3,9,DATA_ANALYTICS,Big Data,"€36,818,181,818",40500000000,parsed,EUR,6,29,2026-08-22T21:58:37.269504+00:00
+ART0030,Stripe,Stripe,True,exact,100.0,2020-08-24,parsed,2020,3,8,CLOUD,Cloud,Not disclosed,,not_disclosed,,18,30,2026-08-22T21:58:37.269504+00:00
+ART0031,Meta AI,Meta AI,True,exact,100.0,2023-03-26,parsed,2023,1,3,FINTECH,Financial Technology,"€1,090,909,091",1200000000,parsed,EUR,22,31,2026-08-22T21:58:37.269504+00:00
+ART0032,DataRobot,DataRobot,True,exact,100.0,2023-09-20,parsed,2023,3,9,FINTECH,Finance,Not disclosed,,not_disclosed,,11,32,2026-08-22T21:58:37.269504+00:00
+ART0033,SpaceX,SpaceX,True,exact,100.0,2022-02-15,parsed,2022,1,2,CLOUD,Cloud,$5.000 billion,5000000000,parsed,USD,6,33,2026-08-22T21:58:37.269504+00:00
+ART0034,DataRobot,DataRobot,True,exact,100.0,2021-10-21,parsed,2021,4,10,SECURITY,Security,$275.0M,275000000,parsed,USD,9,34,2026-08-22T21:58:37.269504+00:00
+ART0035,Microsoft,Microsoft,True,exact,100.0,2020-04-04,parsed,2020,2,4,SECURITY,InfoSec,N/A,,missing,,2,35,2026-08-22T21:58:37.269504+00:00
+ART0036,NVIDIA,NVIDIA,True,exact,100.0,2023-09-05,parsed,2023,3,9,AI_ML,AI/ML,$38475.0M - $42525.0M,40500000000,parsed,USD,6,36,2026-08-22T21:58:37.269504+00:00
+ART0037,Palantir,Palantir,True,exact,100.0,2022-08-09,parsed,2022,3,8,SOFTWARE,SaaS,Not disclosed,,not_disclosed,,17,37,2026-08-22T21:58:37.269504+00:00
+ART0038,Cloudflare,Cloudflare,True,exact,100.0,2021-04-05,parsed,2021,2,4,SECURITY,Security,"€563,636,364",620000000,parsed,EUR,23,38,2026-08-22T21:58:37.269504+00:00
+ART0039,Microsoft,Microsoft,True,exact,100.0,2022-02-23,parsed,2022,1,2,CLOUD,Cloud Computing,$57950.0M - $64050.0M,61000000000,parsed,USD,4,39,2026-08-22T21:58:37.269504+00:00
+ART0040,SpaceX,SpaceX,True,exact,100.0,2023-04-11,parsed,2023,2,4,AI_ML,AI/ML,$7.600 billion,7600000000,parsed,USD,7,40,2026-08-22T21:58:37.269504+00:00
+ART0041,DataRobot,DataRobot,True,exact,100.0,2022-09-26,parsed,2022,3,9,FINTECH,Financial Technology,"£240,157,480",305000000,parsed,GBP,10,41,2026-08-22T21:58:37.269504+00:00
+ART0042,DataRobot,DataRobot,True,exact,100.0,2020-02-25,parsed,2020,1,2,SOFTWARE,Enterprise Software,N/A,,missing,,8,42,2026-08-22T21:58:37.269504+00:00
+ART0043,Uber,Uber,True,exact,100.0,2021-03-09,parsed,2021,1,3,DATA_ANALYTICS,Data Analytics,Not disclosed,,not_disclosed,,6,43,2026-08-22T21:58:37.269504+00:00
+ART0044,Anthropic,Anthropic,True,exact,100.0,2021-04-04,parsed,2021,2,4,AI_ML,Machine Learning,Not disclosed,,not_disclosed,,15,44,2026-08-22T21:58:37.269504+00:00
+ART0045,Cloudflare,Cloudflare,True,exact,100.0,2020-08-22,parsed,2020,3,8,CLOUD,Cloud Services,$455.0 million,455000000,parsed,USD,22,45,2026-08-22T21:58:37.269504+00:00
+ART0046,Confluent,Confluent,True,exact,100.0,2022-02-07,parsed,2022,1,2,CLOUD,Cloud Services,$0.600 billion,600000000,parsed,USD,27,46,2026-08-22T21:58:37.269504+00:00
+ART0047,Anthropic,Anthropic,True,exact,100.0,2022-12-27,parsed,2022,4,12,DATA_ANALYTICS,Analytics,Not disclosed,,not_disclosed,,16,47,2026-08-22T21:58:37.269504+00:00
+ART0048,Scale AI,Scale AI,True,exact,100.0,2023-12-19,parsed,2023,4,12,SECURITY,Cybersecurity,,,missing,,20,48,2026-08-22T21:58:37.269504+00:00
+ART0049,NVIDIA,NVIDIA,True,exact,100.0,2021-07-25,parsed,2021,3,7,FINTECH,FinTech,"¥2,400,000,000,000",16000000000,parsed,JPY,4,49,2026-08-22T21:58:37.269504+00:00
+ART0050,Databricks,Databricks,True,exact,100.0,2021-07-26,parsed,2021,3,7,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,18,50,2026-08-22T21:58:37.269504+00:00
+ART0051,Scale AI,Scale AI,True,exact,100.0,2022-10-02,parsed,2022,4,10,AI_ML,AI/ML,$0.570 billion,570000000,parsed,USD,19,51,2026-08-22T21:58:37.269504+00:00
+ART0052,MongoDB,MongoDB,True,exact,100.0,2022-05-21,parsed,2022,2,5,SOFTWARE,Software,Not disclosed,,not_disclosed,,14,52,2026-08-22T21:58:37.269504+00:00
+ART0053,Stripe,Stripe,True,exact,100.0,2023-01-02,parsed,2023,1,1,CLOUD,Cloud,2300.0M USD,2300000000,parsed,USD,21,53,2026-08-22T21:58:37.269504+00:00
+ART0054,Tesla,Tesla,True,exact,100.0,2021-10-04,parsed,2021,4,10,CLOUD,Cloud,"$54,000,000,000",54000000000,parsed,USD,13,54,2026-08-22T21:58:37.269504+00:00
+ART0055,Scale AI,Scale AI,True,exact,100.0,2020-07-29,parsed,2020,3,7,SOFTWARE,Enterprise Software,$135.0 million,135000000,parsed,USD,17,55,2026-08-22T21:58:37.269504+00:00
+ART0056,Meta AI,Meta AI,True,exact,100.0,2022-03-31,parsed,2022,1,3,AI_ML,Machine Learning,$700.0 million,700000000,parsed,USD,21,56,2026-08-22T21:58:37.269504+00:00
+ART0057,NVIDIA,NVIDIA,True,exact,100.0,2023-02-16,parsed,2023,1,2,FINTECH,FinTech,Not disclosed,,not_disclosed,,6,57,2026-08-22T21:58:37.269504+00:00
+ART0058,Meta AI,Meta AI,True,exact,100.0,2023-07-05,parsed,2023,3,7,FINTECH,Financial Technology,$1330.0M - $1470.0M,1400000000,parsed,USD,22,58,2026-08-22T21:58:37.269504+00:00
+ART0059,Palantir,Palantir,True,exact,100.0,2023-05-01,parsed,2023,2,5,FINTECH,Finance,$1.920B,1920000000,parsed,USD,18,59,2026-08-22T21:58:37.269504+00:00
+ART0060,SpaceX,SpaceX,True,exact,100.0,2023-01-20,parsed,2023,1,1,CLOUD,Cloud Computing,$7000.0 million,7000000000,parsed,USD,7,60,2026-08-22T21:58:37.269504+00:00
+ART0061,Snowflake,Snowflake,True,exact,100.0,2020-09-11,parsed,2020,3,9,FINTECH,Finance,730.0M USD,730000000,parsed,USD,8,61,2026-08-22T21:58:37.269504+00:00
+ART0062,Databricks,Databricks,True,exact,100.0,2020-07-06,parsed,2020,3,7,SOFTWARE,Enterprise Software,,,missing,,17,62,2026-08-22T21:58:37.269504+00:00
+ART0063,Scale AI,Scale AI,True,exact,100.0,2020-07-05,parsed,2020,3,7,DATA_ANALYTICS,Analytics,,,missing,,17,63,2026-08-22T21:58:37.269504+00:00
+ART0064,Anthropic,Anthropic,True,exact,100.0,2020-06-29,parsed,2020,2,6,FINTECH,Financial Technology,,,missing,,14,64,2026-08-22T21:58:37.269504+00:00
+ART0065,Scale AI,Scale AI,True,exact,100.0,2020-04-15,parsed,2020,2,4,FINTECH,Financial Technology,,,missing,,17,65,2026-08-22T21:58:37.269504+00:00
+ART0066,NVIDIA,NVIDIA,True,exact,100.0,2020-11-20,parsed,2020,4,11,SOFTWARE,Software,$12.600B,12600000000,parsed,USD,3,66,2026-08-22T21:58:37.269504+00:00
+ART0067,Cloudflare,Cloudflare,True,exact,100.0,2021-08-20,parsed,2021,3,8,FINTECH,Financial Technology,N/A,,missing,,23,67,2026-08-22T21:58:37.269504+00:00
+ART0068,Microsoft,Microsoft,True,exact,100.0,2021-07-19,parsed,2021,3,7,DATA_ANALYTICS,Data Analytics,$55.000 billion,55000000000,parsed,USD,3,68,2026-08-22T21:58:37.269504+00:00
+ART0069,Microsoft,Microsoft,True,exact,100.0,2023-01-08,parsed,2023,1,1,DATA_ANALYTICS,Analytics,$71.000B,71000000000,parsed,USD,5,69,2026-08-22T21:58:37.269504+00:00
+ART0070,SpaceX,SpaceX,True,exact,100.0,2021-10-13,parsed,2021,4,10,SECURITY,InfoSec,$4300.0 million,4300000000,parsed,USD,5,70,2026-08-22T21:58:37.269504+00:00
+ART0071,Palantir,Palantir,True,exact,100.0,2022-12-13,parsed,2022,4,12,AI_ML,AI/ML,"¥255,000,000,000",1700000000,parsed,JPY,17,71,2026-08-22T21:58:37.269504+00:00
+ART0072,Scale AI,Scale AI,True,exact,100.0,2021-11-03,parsed,2021,4,11,SOFTWARE,Software,$340.0M,340000000,parsed,USD,18,72,2026-08-22T21:58:37.269504+00:00
+ART0073,Google DeepMind,Google DeepMind,True,exact,100.0,2020-07-20,parsed,2020,3,7,AI_ML,AI & ML,"$145,000,000",145000000,parsed,USD,3,73,2026-08-22T21:58:37.269504+00:00
+ART0074,SpaceX,SpaceX,True,exact,100.0,2021-05-15,parsed,2021,2,5,SECURITY,Cybersecurity,$3450.0 million,3450000000,parsed,USD,5,74,2026-08-22T21:58:37.269504+00:00
+ART0075,Cloudflare,Cloudflare,True,exact,100.0,2020-10-20,parsed,2020,4,10,SECURITY,Security,"¥75,000,000,000",500000000,parsed,JPY,22,75,2026-08-22T21:58:37.269504+00:00
+ART0076,Palantir,Palantir,True,exact,100.0,2023-04-18,parsed,2023,2,4,SECURITY,Cybersecurity,Not disclosed,,not_disclosed,,18,76,2026-08-22T21:58:37.269504+00:00
+ART0077,Airbnb,Airbnb,True,exact,100.0,2021-08-28,parsed,2021,3,8,FINTECH,Finance,"$4,200,000,000",4200000000,parsed,USD,22,77,2026-08-22T21:58:37.269504+00:00
+ART0078,DataRobot,DataRobot,True,exact,100.0,2022-10-14,parsed,2022,4,10,FINTECH,FinTech,295.0M USD,295000000,parsed,USD,10,78,2026-08-22T21:58:37.269504+00:00
+ART0079,Scale AI,Scale AI,True,exact,100.0,2023-07-09,parsed,2023,3,7,AI_ML,Artificial Intelligence,$735.0 million,735000000,parsed,USD,20,79,2026-08-22T21:58:37.269504+00:00
+ART0080,Amazon Web Services,Amazon Web Services,True,exact,100.0,2020-09-27,parsed,2020,3,9,DATA_ANALYTICS,Analytics,$45.500 billion,45500000000,parsed,USD,5,80,2026-08-22T21:58:37.269504+00:00
+ART0081,Meta AI,Meta AI,True,exact,100.0,2020-06-03,parsed,2020,2,6,FINTECH,FinTech,"£114,173,228",145000000,parsed,GBP,19,81,2026-08-22T21:58:37.269504+00:00
+ART0082,Airbnb,Airbnb,True,exact,100.0,2023-08-10,parsed,2023,3,8,SOFTWARE,Enterprise Software,"¥1,110,000,000,000",7400000000,parsed,JPY,24,82,2026-08-22T21:58:37.269504+00:00
+ART0083,Stripe,Stripe,True,exact,100.0,2021-03-29,parsed,2021,1,3,AI_ML,Machine Learning,,,missing,,19,83,2026-08-22T21:58:37.269504+00:00
+ART0084,Cloudflare,Cloudflare,True,exact,100.0,2020-07-18,parsed,2020,3,7,SOFTWARE,Software,N/A,,missing,,22,84,2026-08-22T21:58:37.269504+00:00
+ART0085,Cloudflare,Cloudflare,True,exact,100.0,2022-04-15,parsed,2022,2,4,AI_ML,Artificial Intelligence,"€795,454,545",875000000,parsed,EUR,24,85,2026-08-22T21:58:37.269504+00:00
+ART0086,Anthropic,Anthropic,True,exact,100.0,2021-07-19,parsed,2021,3,7,AI_ML,AI & ML,"$45,000,000",45000000,parsed,USD,15,86,2026-08-22T21:58:37.269504+00:00
+ART0087,Tesla,Tesla,True,exact,100.0,2023-02-09,parsed,2023,1,2,SOFTWARE,Enterprise Software,$82000.0 million,82000000000,parsed,USD,15,87,2026-08-22T21:58:37.269504+00:00
+ART0088,Microsoft,Microsoft,True,exact,100.0,2021-05-28,parsed,2021,2,5,AI_ML,AI & ML,$52.500B,52500000000,parsed,USD,3,88,2026-08-22T21:58:37.269504+00:00
+ART0089,Databricks,Databricks,True,exact,100.0,2020-09-16,parsed,2020,3,9,SECURITY,Cybersecurity,,,missing,,17,89,2026-08-22T21:58:37.269504+00:00
+ART0090,MongoDB,MongoDB,True,exact,100.0,2023-06-13,parsed,2023,2,6,SOFTWARE,SaaS,$1.560B,1560000000,parsed,USD,15,90,2026-08-22T21:58:37.269504+00:00
+ART0091,Google DeepMind,Google DeepMind,True,exact,100.0,2021-10-21,parsed,2021,4,10,CLOUD,Cloud Computing,"¥61,500,000,000",410000000,parsed,JPY,4,91,2026-08-22T21:58:37.269504+00:00
+ART0092,Scale AI,Scale AI,True,exact,100.0,2023-02-03,parsed,2023,1,2,CLOUD,Cloud Services,Not disclosed,,not_disclosed,,20,92,2026-08-22T21:58:37.269504+00:00
+ART0093,Stripe,Stripe,True,exact,100.0,2021-10-02,parsed,2021,4,10,FINTECH,Financial Technology,$1.550B,1550000000,parsed,USD,19,93,2026-08-22T21:58:37.269504+00:00
+ART0094,Airbnb,Airbnb,True,exact,100.0,2023-02-13,parsed,2023,1,2,SOFTWARE,Enterprise Software,"£5,196,850,394",6600000000,parsed,GBP,24,94,2026-08-22T21:58:37.269504+00:00
+ART0095,Snowflake,Snowflake,True,exact,100.0,2020-07-31,parsed,2020,3,7,SOFTWARE,SaaS,Not disclosed,,not_disclosed,,8,95,2026-08-22T21:58:37.269504+00:00
+ART0096,Confluent,Confluent,True,exact,100.0,2022-05-28,parsed,2022,2,5,SOFTWARE,Software,$0.655 billion,655000000,parsed,USD,27,96,2026-08-22T21:58:37.269504+00:00
+ART0097,OpenAI,OpenAI,True,exact,100.0,2020-10-20,parsed,2020,4,10,DATA_ANALYTICS,Big Data,$90.2M - $99.8M,95000000,parsed,USD,14,97,2026-08-22T21:58:37.269504+00:00
+ART0098,Amazon Web Services,Amazon Web Services,True,exact,100.0,2021-09-30,parsed,2021,3,9,DATA_ANALYTICS,Data Analytics,Not disclosed,,not_disclosed,,6,98,2026-08-22T21:58:37.269504+00:00
+ART0099,Palantir,Palantir,True,exact,100.0,2022-05-18,parsed,2022,2,5,SECURITY,Security,"£1,220,472,441",1550000000,parsed,GBP,17,99,2026-08-22T21:58:37.269504+00:00
+ART0100,Cloudflare,Cloudflare,True,exact,100.0,2023-09-28,parsed,2023,3,9,AI_ML,Artificial Intelligence,$1.260 billion,1260000000,parsed,USD,25,100,2026-08-22T21:58:37.269504+00:00
+ART0101,Stripe,Stripe,True,exact,100.0,2020-01-16,parsed,2020,1,1,SECURITY,Cybersecurity,$720.0M,720000000,parsed,USD,18,101,2026-08-22T21:58:37.269504+00:00
+ART0102,OpenAI,OpenAI,True,exact,100.0,2020-08-06,parsed,2020,3,8,SOFTWARE,Enterprise Software,$75.0M,75000000,parsed,USD,14,102,2026-08-22T21:58:37.269504+00:00
+ART0103,DataRobot,DataRobot,True,exact,100.0,2023-11-13,parsed,2023,4,11,AI_ML,Machine Learning,,,missing,,11,103,2026-08-22T21:58:37.269504+00:00
+ART0104,Stripe,Stripe,True,exact,100.0,2020-06-05,parsed,2020,2,6,AI_ML,AI & ML,$780.0 million,780000000,parsed,USD,18,104,2026-08-22T21:58:37.269504+00:00
+ART0105,Amazon Web Services,Amazon Web Services,True,exact,100.0,2020-11-09,parsed,2020,4,11,AI_ML,Machine Learning,,,missing,,5,105,2026-08-22T21:58:37.269504+00:00
+ART0106,Scale AI,Scale AI,True,exact,100.0,2020-11-05,parsed,2020,4,11,AI_ML,Machine Learning,Not disclosed,,not_disclosed,,17,106,2026-08-22T21:58:37.269504+00:00
+ART0107,Palantir,Palantir,True,exact,100.0,2020-03-18,parsed,2020,1,3,DATA_ANALYTICS,Analytics,,,missing,,15,107,2026-08-22T21:58:37.269504+00:00
+ART0108,Palantir,Palantir,True,exact,100.0,2023-08-27,parsed,2023,3,8,DATA_ANALYTICS,Data Analytics,"¥315,000,000,000",2100000000,parsed,JPY,18,108,2026-08-22T21:58:37.269504+00:00
+ART0109,MongoDB,MongoDB,True,exact,100.0,2020-12-19,parsed,2020,4,12,FINTECH,FinTech,"€590,909,091",650000000,parsed,EUR,12,109,2026-08-22T21:58:37.269504+00:00
+ART0110,DataRobot,DataRobot,True,exact,100.0,2023-07-16,parsed,2023,3,7,DATA_ANALYTICS,Data Analytics,Not disclosed,,not_disclosed,,11,110,2026-08-22T21:58:37.269504+00:00
+ART0111,Microsoft,Microsoft,True,exact,100.0,2020-06-15,parsed,2020,2,6,CLOUD,Cloud Computing,Not disclosed,,not_disclosed,,2,111,2026-08-22T21:58:37.269504+00:00
+ART0112,Microsoft,Microsoft,True,exact,100.0,2023-12-10,parsed,2023,4,12,SOFTWARE,SaaS,"$78,000,000,000",78000000000,parsed,USD,5,112,2026-08-22T21:58:37.269504+00:00
+ART0113,Stripe,Stripe,True,exact,100.0,2021-01-28,parsed,2021,1,1,CLOUD,Cloud Computing,"€954,545,455",1050000001,parsed,EUR,19,113,2026-08-22T21:58:37.269504+00:00
+ART0114,Amazon Web Services,Amazon Web Services,True,exact,100.0,2023-11-19,parsed,2023,4,11,CLOUD,Cloud,"¥14,250,000,000,000",95000000000,parsed,JPY,8,114,2026-08-22T21:58:37.269504+00:00
+ART0115,NVIDIA,NVIDIA,True,exact,100.0,2021-04-05,parsed,2021,2,4,SECURITY,InfoSec,"£11,811,023,622",15000000000,parsed,GBP,4,115,2026-08-22T21:58:37.269504+00:00
+ART0116,Tesla,Tesla,True,exact,100.0,2020-10-10,parsed,2020,4,10,AI_ML,Artificial Intelligence,$24700.0M - $27300.0M,26000000000,parsed,USD,12,116,2026-08-22T21:58:37.269504+00:00
+ART0117,Amazon Web Services,Amazon Web Services,True,exact,100.0,2022-07-09,parsed,2022,3,7,CLOUD,Cloud Computing,"£61,417,322,835",78000000000,parsed,GBP,7,117,2026-08-22T21:58:37.269504+00:00
+ART0118,Airbnb,Airbnb,True,exact,100.0,2020-02-27,parsed,2020,1,2,AI_ML,AI & ML,"$2,600,000,000",2600000000,parsed,USD,21,118,2026-08-22T21:58:37.269504+00:00
+ART0119,Cloudflare,Cloudflare,True,exact,100.0,2023-06-14,parsed,2023,2,6,AI_ML,Machine Learning,$1.180B,1180000000,parsed,USD,25,119,2026-08-22T21:58:37.269504+00:00
+ART0120,SpaceX,SpaceX,True,exact,100.0,2023-06-29,parsed,2023,2,6,AI_ML,Machine Learning,$7220.0M - $7980.0M,7600000000,parsed,USD,7,120,2026-08-22T21:58:37.269504+00:00
+ART0121,SpaceX,SpaceX,True,exact,100.0,2023-06-13,parsed,2023,2,6,FINTECH,FinTech,$7.600B,7600000000,parsed,USD,7,121,2026-08-22T21:58:37.269504+00:00
+ART0122,Elastic,Elastic,True,exact,100.0,2022-03-10,parsed,2022,1,3,AI_ML,Artificial Intelligence,"$1,010,000,000",1010000000,parsed,USD,6,122,2026-08-22T21:58:37.269504+00:00
+ART0123,Confluent,Confluent,True,exact,100.0,2021-11-11,parsed,2021,4,11,AI_ML,Artificial Intelligence,,,missing,,26,123,2026-08-22T21:58:37.269504+00:00
+ART0124,Palantir,Palantir,True,exact,100.0,2021-08-23,parsed,2021,3,8,AI_ML,Artificial Intelligence,$1.320B,1320000000,parsed,USD,16,124,2026-08-22T21:58:37.269504+00:00
+ART0125,Scale AI,Scale AI,True,exact,100.0,2021-07-13,parsed,2021,3,7,DATA_ANALYTICS,Analytics,Not disclosed,,not_disclosed,,18,125,2026-08-22T21:58:37.269504+00:00
+ART0126,MongoDB,MongoDB,True,exact,100.0,2020-06-18,parsed,2020,2,6,SECURITY,Cybersecurity,"€490,909,091",540000000,parsed,EUR,12,126,2026-08-22T21:58:37.269504+00:00
+ART0127,Snowflake,Snowflake,True,exact,100.0,2023-05-19,parsed,2023,2,5,SECURITY,Cybersecurity,,,missing,,11,127,2026-08-22T21:58:37.269504+00:00
+ART0128,Databricks,Databricks,True,exact,100.0,2020-04-27,parsed,2020,2,4,DATA_ANALYTICS,Big Data,$420.0 million,420000000,parsed,USD,17,128,2026-08-22T21:58:37.269504+00:00
+ART0129,Microsoft,Microsoft,True,exact,100.0,2021-04-28,parsed,2021,2,4,DATA_ANALYTICS,Analytics,"¥7,875,000,000,000",52500000000,parsed,JPY,3,129,2026-08-22T21:58:37.269504+00:00
+ART0130,Confluent,Confluent,True,exact,100.0,2022-12-20,parsed,2022,4,12,DATA_ANALYTICS,Big Data,"$735,000,000",735000000,parsed,USD,27,130,2026-08-22T21:58:37.269504+00:00
+ART0131,Elastic,Elastic,True,exact,100.0,2021-06-20,parsed,2021,2,6,SECURITY,Security,$890.0 million,890000000,parsed,USD,5,131,2026-08-22T21:58:37.269504+00:00
+ART0132,Google DeepMind,Google DeepMind,True,exact,100.0,2021-10-16,parsed,2021,4,10,DATA_ANALYTICS,Analytics,$410.0 million,410000000,parsed,USD,4,132,2026-08-22T21:58:37.269504+00:00
+ART0133,Airbnb,Airbnb,True,exact,100.0,2021-04-04,parsed,2021,2,4,CLOUD,Cloud Services,"€3,454,545,455",3800000001,parsed,EUR,22,133,2026-08-22T21:58:37.269504+00:00
+ART0134,Microsoft,Microsoft,True,exact,100.0,2020-06-25,parsed,2020,2,6,FINTECH,Finance,,,missing,,2,134,2026-08-22T21:58:37.269504+00:00
+ART0135,Scale AI,Scale AI,True,exact,100.0,2022-07-10,parsed,2022,3,7,SOFTWARE,SaaS,,,missing,,19,135,2026-08-22T21:58:37.269504+00:00
+ART0136,Amazon Web Services,Amazon Web Services,True,exact,100.0,2023-12-23,parsed,2023,4,12,DATA_ANALYTICS,Analytics,Not disclosed,,not_disclosed,,8,136,2026-08-22T21:58:37.269504+00:00
+ART0137,DataRobot,DataRobot,True,exact,100.0,2020-07-10,parsed,2020,3,7,CLOUD,Cloud,170.0M USD,170000000,parsed,USD,8,137,2026-08-22T21:58:37.269504+00:00
+ART0138,Scale AI,Scale AI,True,exact,100.0,2021-06-26,parsed,2021,2,6,CLOUD,Cloud Services,$0.260 billion,260000000,parsed,USD,18,138,2026-08-22T21:58:37.269504+00:00
+ART0139,Snowflake,Snowflake,True,exact,100.0,2020-05-29,parsed,2020,2,5,AI_ML,Artificial Intelligence,N/A,,missing,,8,139,2026-08-22T21:58:37.269504+00:00
+ART0140,Airbnb,Airbnb,True,exact,100.0,2020-09-24,parsed,2020,3,9,SOFTWARE,SaaS,,,missing,,21,140,2026-08-22T21:58:37.269504+00:00
+ART0141,Anthropic,Anthropic,True,exact,100.0,2022-02-25,parsed,2022,1,2,SECURITY,Cybersecurity,$95.0M,95000000,parsed,USD,16,141,2026-08-22T21:58:37.269504+00:00
+ART0142,Cloudflare,Cloudflare,True,exact,100.0,2022-10-15,parsed,2022,4,10,AI_ML,Machine Learning,"$1,010,000,000",1010000000,parsed,USD,24,142,2026-08-22T21:58:37.269504+00:00
+ART0143,Snowflake,Snowflake,True,exact,100.0,2020-01-17,parsed,2020,1,1,SECURITY,Cybersecurity,Not disclosed,,not_disclosed,,8,143,2026-08-22T21:58:37.269504+00:00
+ART0144,Elastic,Elastic,True,exact,100.0,2022-01-12,parsed,2022,1,1,FINTECH,Finance,1010.0M USD,1010000000,parsed,USD,6,144,2026-08-22T21:58:37.269504+00:00
+ART0145,Uber,Uber,True,exact,100.0,2021-11-25,parsed,2021,4,11,DATA_ANALYTICS,Analytics,Not disclosed,,not_disclosed,,6,145,2026-08-22T21:58:37.269504+00:00
+ART0146,Palantir,Palantir,True,exact,100.0,2023-05-26,parsed,2023,2,5,CLOUD,Cloud Computing,Not disclosed,,not_disclosed,,18,146,2026-08-22T21:58:37.269504+00:00
+ART0147,Elastic,Elastic,True,exact,100.0,2023-12-22,parsed,2023,4,12,FINTECH,Finance,$1.250B,1250000000,parsed,USD,7,147,2026-08-22T21:58:37.269504+00:00
+ART0148,DataRobot,DataRobot,True,exact,100.0,2021-06-27,parsed,2021,2,6,SOFTWARE,Enterprise Software,N/A,,missing,,9,148,2026-08-22T21:58:37.269504+00:00
+ART0149,Microsoft,Microsoft,True,exact,100.0,2021-05-11,parsed,2021,2,5,SOFTWARE,Enterprise Software,"£41,338,582,677",52500000000,parsed,GBP,3,149,2026-08-22T21:58:37.269504+00:00
+ART0150,MongoDB,MongoDB,True,exact,100.0,2022-08-23,parsed,2022,3,8,AI_ML,Artificial Intelligence,Not disclosed,,not_disclosed,,14,150,2026-08-22T21:58:37.269504+00:00
+ART0151,Elastic,Elastic,True,exact,100.0,2023-10-16,parsed,2023,4,10,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,7,151,2026-08-22T21:58:37.269504+00:00
+ART0152,Stripe,Stripe,True,exact,100.0,2021-12-15,parsed,2021,4,12,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,19,152,2026-08-22T21:58:37.269504+00:00
+ART0153,Google DeepMind,Google DeepMind,True,exact,100.0,2022-06-24,parsed,2022,2,6,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,5,153,2026-08-22T21:58:37.269504+00:00
+ART0154,NVIDIA,NVIDIA,True,exact,100.0,2023-10-03,parsed,2023,4,10,FINTECH,FinTech,Not disclosed,,not_disclosed,,6,154,2026-08-22T21:58:37.269504+00:00
+ART0155,OpenAI,OpenAI,True,exact,100.0,2020-11-19,parsed,2020,4,11,SECURITY,InfoSec,$0.095 billion,95000000,parsed,USD,14,155,2026-08-22T21:58:37.269504+00:00
+ART0156,Scale AI,Scale AI,True,exact,100.0,2021-04-20,parsed,2021,2,4,AI_ML,Artificial Intelligence,,,missing,,18,156,2026-08-22T21:58:37.269504+00:00
+ART0157,Anthropic,Anthropic,True,exact,100.0,2021-09-03,parsed,2021,3,9,AI_ML,AI & ML,$42.8M - $47.2M,45000000,parsed,USD,15,157,2026-08-22T21:58:37.269504+00:00
+ART0158,Stripe,Stripe,True,exact,100.0,2022-07-28,parsed,2022,3,7,FINTECH,Financial Technology,1900.0M USD,1900000000,parsed,USD,20,158,2026-08-22T21:58:37.269504+00:00
+ART0159,SpaceX,SpaceX,True,exact,100.0,2021-11-02,parsed,2021,4,11,DATA_ANALYTICS,Big Data,$4.300B,4300000000,parsed,USD,5,159,2026-08-22T21:58:37.269504+00:00
+ART0160,Databricks,Databricks,True,exact,100.0,2021-09-10,parsed,2021,3,9,SOFTWARE,Enterprise Software,Not disclosed,,not_disclosed,,18,160,2026-08-22T21:58:37.269504+00:00
+ART0161,Uber,Uber,True,exact,100.0,2022-10-26,parsed,2022,4,10,FINTECH,Finance,$25.000B,25000000000,parsed,USD,7,161,2026-08-22T21:58:37.269504+00:00
+ART0162,Airbnb,Airbnb,True,exact,100.0,2023-12-08,parsed,2023,4,12,SECURITY,InfoSec,Not disclosed,,not_disclosed,,24,162,2026-08-22T21:58:37.269504+00:00
+ART0163,MongoDB,MongoDB,True,exact,100.0,2023-03-18,parsed,2023,1,3,CLOUD,Cloud Computing,1480.0M USD,1480000000,parsed,USD,15,163,2026-08-22T21:58:37.269504+00:00
+ART0164,Anthropic,Anthropic,True,exact,100.0,2020-09-27,parsed,2020,3,9,SECURITY,Cybersecurity,Not disclosed,,not_disclosed,,14,164,2026-08-22T21:58:37.269504+00:00
+ART0165,Tesla,Tesla,True,exact,100.0,2020-05-29,parsed,2020,2,5,SECURITY,Cybersecurity,$24.500B,24500000000,parsed,USD,12,165,2026-08-22T21:58:37.269504+00:00
+ART0166,Microsoft,Microsoft,True,exact,100.0,2023-08-15,parsed,2023,3,8,DATA_ANALYTICS,Analytics,,,missing,,5,166,2026-08-22T21:58:37.269504+00:00
+ART0167,Scale AI,Scale AI,True,exact,100.0,2020-08-30,parsed,2020,3,8,SOFTWARE,Software,Not disclosed,,not_disclosed,,17,167,2026-08-22T21:58:37.269504+00:00
+ART0168,SpaceX,SpaceX,True,exact,100.0,2022-02-15,parsed,2022,1,2,FINTECH,FinTech,$5.000B,5000000000,parsed,USD,6,168,2026-08-22T21:58:37.269504+00:00
+ART0169,NVIDIA,NVIDIA,True,exact,100.0,2020-05-17,parsed,2020,2,5,AI_ML,Artificial Intelligence,"$11,200,000,000",11200000000,parsed,USD,3,169,2026-08-22T21:58:37.269504+00:00
+ART0170,Anthropic,Anthropic,True,exact,100.0,2022-10-28,parsed,2022,4,10,FINTECH,FinTech,$0.250 billion,250000000,parsed,USD,16,170,2026-08-22T21:58:37.269504+00:00
+ART0171,Snowflake,Snowflake,True,exact,100.0,2020-05-04,parsed,2020,2,5,SOFTWARE,Enterprise Software,,,missing,,8,171,2026-08-22T21:58:37.269504+00:00
+ART0172,Stripe,Stripe,True,exact,100.0,2022-05-02,parsed,2022,2,5,CLOUD,Cloud Computing,$1.820B,1820000000,parsed,USD,20,172,2026-08-22T21:58:37.269504+00:00
+ART0173,Anthropic,Anthropic,True,exact,100.0,2022-04-25,parsed,2022,2,4,SOFTWARE,Software,$130.0M,130000000,parsed,USD,16,173,2026-08-22T21:58:37.269504+00:00
+ART0174,Palantir,Palantir,True,exact,100.0,2020-07-08,parsed,2020,3,7,CLOUD,Cloud Services,Not disclosed,,not_disclosed,,15,174,2026-08-22T21:58:37.269504+00:00
+ART0175,Tesla,Tesla,True,exact,100.0,2020-08-28,parsed,2020,3,8,SECURITY,InfoSec,$23940.0M - $26460.0M,25200000000,parsed,USD,12,175,2026-08-22T21:58:37.269504+00:00
+ART0176,Scale AI,Scale AI,True,exact,100.0,2021-09-23,parsed,2021,3,9,DATA_ANALYTICS,Analytics,Not disclosed,,not_disclosed,,18,176,2026-08-22T21:58:37.269504+00:00
+ART0177,Confluent,Confluent,True,exact,100.0,2020-10-25,parsed,2020,4,10,FINTECH,Financial Technology,$340.0M,340000000,parsed,USD,25,177,2026-08-22T21:58:37.269504+00:00
+ART0178,Cloudflare,Cloudflare,True,exact,100.0,2023-09-02,parsed,2023,3,9,DATA_ANALYTICS,Data Analytics,,,missing,,25,178,2026-08-22T21:58:37.269504+00:00
+ART0179,Microsoft,Microsoft,True,exact,100.0,2023-01-24,parsed,2023,1,1,CLOUD,Cloud,$71.000B,71000000000,parsed,USD,5,179,2026-08-22T21:58:37.269504+00:00
+ART0180,Microsoft,Microsoft,True,exact,100.0,2021-04-18,parsed,2021,2,4,CLOUD,Cloud Computing,"$52,500,000,000",52500000000,parsed,USD,3,180,2026-08-22T21:58:37.269504+00:00
+ART0181,Cloudflare,Cloudflare,True,exact,100.0,2020-01-14,parsed,2020,1,1,SOFTWARE,Software,$370.5M - $409.5M,390000000,parsed,USD,22,181,2026-08-22T21:58:37.269504+00:00
+ART0182,Amazon Web Services,Amazon Web Services,True,exact,100.0,2020-07-16,parsed,2020,3,7,CLOUD,Cloud Computing,,,missing,,5,182,2026-08-22T21:58:37.269504+00:00
+ART0183,NVIDIA,NVIDIA,True,exact,100.0,2023-11-01,parsed,2023,4,11,AI_ML,Artificial Intelligence,,,missing,,6,183,2026-08-22T21:58:37.269504+00:00
+ART0184,Cloudflare,Cloudflare,True,exact,100.0,2023-08-13,parsed,2023,3,8,SOFTWARE,Enterprise Software,$1.260B,1260000000,parsed,USD,25,184,2026-08-22T21:58:37.269504+00:00
+ART0185,Google DeepMind,Google DeepMind,True,exact,100.0,2021-07-28,parsed,2021,3,7,SOFTWARE,Enterprise Software,$340.0M,340000000,parsed,USD,4,185,2026-08-22T21:58:37.269504+00:00
+ART0186,Google DeepMind,Google DeepMind,True,exact,100.0,2020-11-28,parsed,2020,4,11,FINTECH,FinTech,"£137,795,276",175000001,parsed,GBP,3,186,2026-08-22T21:58:37.269504+00:00
+ART0187,MongoDB,MongoDB,True,exact,100.0,2021-12-09,parsed,2021,4,12,AI_ML,AI & ML,990.0M USD,990000000,parsed,USD,13,187,2026-08-22T21:58:37.269504+00:00
+ART0188,OpenAI,OpenAI,True,exact,100.0,2021-07-13,parsed,2021,3,7,SECURITY,InfoSec,240.0M USD,240000000,parsed,USD,15,188,2026-08-22T21:58:37.269504+00:00
+ART0189,DataRobot,DataRobot,True,exact,100.0,2021-05-19,parsed,2021,2,5,AI_ML,Machine Learning,"£192,913,386",245000000,parsed,GBP,9,189,2026-08-22T21:58:37.269504+00:00
+ART0190,Snowflake,Snowflake,True,exact,100.0,2022-07-01,parsed,2022,3,7,AI_ML,AI & ML,,,missing,,10,190,2026-08-22T21:58:37.269504+00:00
+ART0191,Elastic,Elastic,True,exact,100.0,2023-05-07,parsed,2023,2,5,DATA_ANALYTICS,Data Analytics,,,missing,,7,191,2026-08-22T21:58:37.269504+00:00
+ART0192,Confluent,Confluent,True,exact,100.0,2020-12-13,parsed,2020,4,12,DATA_ANALYTICS,Big Data,"¥51,000,000,000",340000000,parsed,JPY,25,192,2026-08-22T21:58:37.269504+00:00
+ART0193,SpaceX,SpaceX,True,exact,100.0,2022-09-18,parsed,2022,3,9,DATA_ANALYTICS,Analytics,,,missing,,6,193,2026-08-22T21:58:37.269504+00:00
+ART0194,Uber,Uber,True,exact,100.0,2023-06-24,parsed,2023,2,6,DATA_ANALYTICS,Data Analytics,Not disclosed,,not_disclosed,,8,194,2026-08-22T21:58:37.269504+00:00
+ART0195,Amazon Web Services,Amazon Web Services,True,exact,100.0,2021-10-15,parsed,2021,4,10,SECURITY,InfoSec,Not disclosed,,not_disclosed,,6,195,2026-08-22T21:58:37.269504+00:00
+ART0196,Tesla,Tesla,True,exact,100.0,2023-01-22,parsed,2023,1,1,SOFTWARE,Software,Not disclosed,,not_disclosed,,15,196,2026-08-22T21:58:37.269504+00:00
+ART0197,Cloudflare,Cloudflare,True,exact,100.0,2023-07-21,parsed,2023,3,7,FINTECH,FinTech,,,missing,,25,197,2026-08-22T21:58:37.269504+00:00
+ART0198,Elastic,Elastic,True,exact,100.0,2022-01-06,parsed,2022,1,1,SOFTWARE,Software,$1.010B,1010000000,parsed,USD,6,198,2026-08-22T21:58:37.269504+00:00
+ART0199,Confluent,Confluent,True,exact,100.0,2023-10-19,parsed,2023,4,10,DATA_ANALYTICS,Big Data,$980.0M,980000000,parsed,USD,28,199,2026-08-22T21:58:37.269504+00:00
+ART0200,Elastic,Elastic,True,exact,100.0,2023-11-09,parsed,2023,4,11,FINTECH,FinTech,"€1,136,363,636",1250000000,parsed,EUR,7,200,2026-08-22T21:58:37.269504+00:00
+ART0201,Google DeepMind,Google DeepMind,True,exact,100.0,2020-10-17,parsed,2020,4,10,FINTECH,Finance,Not disclosed,,not_disclosed,,3,201,2026-08-22T21:58:37.269504+00:00
+ART0202,Stripe,Stripe,True,exact,100.0,2021-09-06,parsed,2021,3,9,AI_ML,AI & ML,$1.380B,1380000000,parsed,USD,19,202,2026-08-22T21:58:37.269504+00:00
+ART0203,Elastic,Elastic,True,exact,100.0,2022-08-04,parsed,2022,3,8,DATA_ANALYTICS,Big Data,,,missing,,6,203,2026-08-22T21:58:37.269504+00:00
+ART0204,Confluent,Confluent,True,exact,100.0,2022-03-07,parsed,2022,1,3,CLOUD,Cloud Services,$570.0M - $630.0M,600000000,parsed,USD,27,204,2026-08-22T21:58:37.269504+00:00
+ART0205,Meta AI,Meta AI,True,exact,100.0,2023-10-05,parsed,2023,4,10,SOFTWARE,SaaS,,,missing,,22,205,2026-08-22T21:58:37.269504+00:00
+ART0206,Snowflake,Snowflake,True,exact,100.0,2023-04-23,parsed,2023,2,4,CLOUD,Cloud Computing,$2520.0 million,2520000000,parsed,USD,11,206,2026-08-22T21:58:37.269504+00:00
+ART0207,SpaceX,SpaceX,True,exact,100.0,2020-10-09,parsed,2020,4,10,DATA_ANALYTICS,Big Data,$2600.0 million,2600000000,parsed,USD,4,207,2026-08-22T21:58:37.269504+00:00
+ART0208,Airbnb,Airbnb,True,exact,100.0,2022-09-19,parsed,2022,3,9,CLOUD,Cloud Services,,,missing,,23,208,2026-08-22T21:58:37.269504+00:00
+ART0209,Confluent,Confluent,True,exact,100.0,2021-03-27,parsed,2021,1,3,AI_ML,Artificial Intelligence,"¥58,500,000,000",390000000,parsed,JPY,26,209,2026-08-22T21:58:37.269504+00:00
+ART0210,Elastic,Elastic,True,exact,100.0,2020-08-19,parsed,2020,3,8,AI_ML,AI & ML,"¥105,000,000,000",700000000,parsed,JPY,4,210,2026-08-22T21:58:37.269504+00:00
+ART0211,Scale AI,Scale AI,True,exact,100.0,2021-09-01,parsed,2021,3,9,SECURITY,Security,$305.0M,305000000,parsed,USD,18,211,2026-08-22T21:58:37.269504+00:00
+ART0212,DataRobot,DataRobot,True,exact,100.0,2022-05-26,parsed,2022,2,5,CLOUD,Cloud Computing,$299.2M - $330.8M,315000000,parsed,USD,10,212,2026-08-22T21:58:37.269504+00:00
+ART0213,Snowflake,Snowflake,True,exact,100.0,2023-03-18,parsed,2023,1,3,SOFTWARE,SaaS,$2.350 billion,2350000000,parsed,USD,11,213,2026-08-22T21:58:37.269504+00:00
+ART0214,NVIDIA,NVIDIA,True,exact,100.0,2023-12-27,parsed,2023,4,12,FINTECH,FinTech,,,missing,,6,214,2026-08-22T21:58:37.269504+00:00
+ART0215,Uber,Uber,True,exact,100.0,2021-07-23,parsed,2021,3,7,DATA_ANALYTICS,Analytics,Not disclosed,,not_disclosed,,6,215,2026-08-22T21:58:37.269504+00:00
+ART0216,Tesla,Tesla,True,exact,100.0,2021-03-07,parsed,2021,1,3,FINTECH,Finance,Not disclosed,,not_disclosed,,13,216,2026-08-22T21:58:37.269504+00:00
+ART0217,Scale AI,Scale AI,True,exact,100.0,2020-02-03,parsed,2020,1,2,CLOUD,Cloud,$100.0 million,100000000,parsed,USD,17,217,2026-08-22T21:58:37.269504+00:00
+ART0218,Google DeepMind,Google DeepMind,True,exact,100.0,2022-08-01,parsed,2022,3,8,AI_ML,Machine Learning,Not disclosed,,not_disclosed,,5,218,2026-08-22T21:58:37.269504+00:00
+ART0219,Scale AI,Scale AI,True,exact,100.0,2023-12-12,parsed,2023,4,12,AI_ML,AI/ML,$722.0M - $798.0M,760000000,parsed,USD,20,219,2026-08-22T21:58:37.269504+00:00
+ART0220,Stripe,Stripe,True,exact,100.0,2022-05-14,parsed,2022,2,5,CLOUD,Cloud Computing,$1.820B,1820000000,parsed,USD,20,220,2026-08-22T21:58:37.269504+00:00
+ART0221,Microsoft,Microsoft,True,exact,100.0,2020-09-29,parsed,2020,3,9,CLOUD,Cloud Computing,"¥6,675,000,000,000",44500000000,parsed,JPY,2,221,2026-08-22T21:58:37.269504+00:00
+ART0222,SpaceX,SpaceX,True,exact,100.0,2023-11-07,parsed,2023,4,11,CLOUD,Cloud Services,"£6,692,913,386",8500000000,parsed,GBP,7,222,2026-08-22T21:58:37.269504+00:00
+ART0223,NVIDIA,NVIDIA,True,exact,100.0,2023-05-15,parsed,2023,2,5,FINTECH,Finance,$34200.0M - $37800.0M,36000000000,parsed,USD,6,223,2026-08-22T21:58:37.269504+00:00
+ART0224,Snowflake,Snowflake,True,exact,100.0,2020-04-21,parsed,2020,2,4,SECURITY,InfoSec,$589.0M - $651.0M,620000000,parsed,USD,8,224,2026-08-22T21:58:37.269504+00:00
+ART0225,Uber,Uber,True,exact,100.0,2022-11-05,parsed,2022,4,11,SOFTWARE,Software,"$25,000,000,000",25000000000,parsed,USD,7,225,2026-08-22T21:58:37.269504+00:00
+ART0226,Anthropic,Anthropic,True,exact,100.0,2022-03-11,parsed,2022,1,3,SOFTWARE,SaaS,$90.2M - $99.8M,95000000,parsed,USD,16,226,2026-08-22T21:58:37.269504+00:00
+ART0227,Snowflake,Snowflake,True,exact,100.0,2022-11-13,parsed,2022,4,11,CLOUD,Cloud Computing,N/A,,missing,,10,227,2026-08-22T21:58:37.269504+00:00
+ART0228,SpaceX,SpaceX,True,exact,100.0,2022-07-17,parsed,2022,3,7,AI_ML,Artificial Intelligence,"$6,100,000,000",6100000000,parsed,USD,6,228,2026-08-22T21:58:37.269504+00:00
+ART0229,Cloudflare,Cloudflare,True,exact,100.0,2022-12-07,parsed,2022,4,12,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,24,229,2026-08-22T21:58:37.269504+00:00
+ART0230,Confluent,Confluent,True,exact,100.0,2020-06-06,parsed,2020,2,6,SECURITY,Security,"€259,090,909",285000000,parsed,EUR,25,230,2026-08-22T21:58:37.269504+00:00
+ART0231,Meta AI,Meta AI,True,exact,100.0,2022-11-08,parsed,2022,4,11,AI_ML,Artificial Intelligence,"£889,763,780",1130000001,parsed,GBP,21,231,2026-08-22T21:58:37.269504+00:00
+ART0232,Elastic,Elastic,True,exact,100.0,2023-09-04,parsed,2023,3,9,FINTECH,FinTech,$1.200B,1200000000,parsed,USD,7,232,2026-08-22T21:58:37.269504+00:00
+ART0233,Amazon Web Services,Amazon Web Services,True,exact,100.0,2022-11-22,parsed,2022,4,11,DATA_ANALYTICS,Big Data,"€73,636,363,636",81000000000,parsed,EUR,7,233,2026-08-22T21:58:37.269504+00:00
+ART0234,Tesla,Tesla,True,exact,100.0,2023-02-28,parsed,2023,1,2,FINTECH,FinTech,"£64,566,929,134",82000000000,parsed,GBP,15,234,2026-08-22T21:58:37.269504+00:00
+ART0235,Stripe,Stripe,True,exact,100.0,2023-09-08,parsed,2023,3,9,FINTECH,Finance,,,missing,,21,235,2026-08-22T21:58:37.269504+00:00
+ART0236,NVIDIA,NVIDIA,True,exact,100.0,2022-04-25,parsed,2022,2,4,DATA_ANALYTICS,Analytics,$16910.0M - $18690.0M,17800000000,parsed,USD,5,236,2026-08-22T21:58:37.269504+00:00
+ART0237,Confluent,Confluent,True,exact,100.0,2020-05-07,parsed,2020,2,5,CLOUD,Cloud Computing,"€259,090,909",285000000,parsed,EUR,25,237,2026-08-22T21:58:37.269504+00:00
+ART0238,Microsoft,Microsoft,True,exact,100.0,2020-08-11,parsed,2020,3,8,AI_ML,AI & ML,,,missing,,2,238,2026-08-22T21:58:37.269504+00:00
+ART0239,Palantir,Palantir,True,exact,100.0,2022-06-08,parsed,2022,2,6,AI_ML,AI & ML,"€1,409,090,909",1550000000,parsed,EUR,17,239,2026-08-22T21:58:37.269504+00:00
+ART0240,Uber,Uber,True,exact,100.0,2020-04-10,parsed,2020,2,4,FINTECH,Finance,"£8,031,496,063",10200000000,parsed,GBP,5,240,2026-08-22T21:58:37.269504+00:00
+ART0241,Meta AI,Meta AI,True,exact,100.0,2020-07-27,parsed,2020,3,7,AI_ML,AI & ML,$165.0M,165000000,parsed,USD,19,241,2026-08-22T21:58:37.269504+00:00
+ART0242,Confluent,Confluent,True,exact,100.0,2021-06-14,parsed,2021,2,6,AI_ML,AI/ML,$455.0M,455000000,parsed,USD,26,242,2026-08-22T21:58:37.269504+00:00
+ART0243,Confluent,Confluent,True,exact,100.0,2022-03-19,parsed,2022,1,3,AI_ML,AI/ML,$600.0M,600000000,parsed,USD,27,243,2026-08-22T21:58:37.269504+00:00
+ART0244,Anthropic,Anthropic,True,exact,100.0,2023-06-22,parsed,2023,2,6,FINTECH,FinTech,,,missing,,17,244,2026-08-22T21:58:37.269504+00:00
+ART0245,Tesla,Tesla,True,exact,100.0,2022-12-12,parsed,2022,4,12,SOFTWARE,Software,Not disclosed,,not_disclosed,,14,245,2026-08-22T21:58:37.269504+00:00
+ART0246,Amazon Web Services,Amazon Web Services,True,exact,100.0,2021-10-15,parsed,2021,4,10,FINTECH,FinTech,"¥9,750,000,000,000",65000000000,parsed,JPY,6,246,2026-08-22T21:58:37.269504+00:00
+ART0247,Amazon Web Services,Amazon Web Services,True,exact,100.0,2021-05-22,parsed,2021,2,5,FINTECH,FinTech,$58000.0 million,58000000000,parsed,USD,6,247,2026-08-22T21:58:37.269504+00:00
+ART0248,Confluent,Confluent,True,exact,100.0,2023-12-11,parsed,2023,4,12,DATA_ANALYTICS,Analytics,Not disclosed,,not_disclosed,,28,248,2026-08-22T21:58:37.269504+00:00
+ART0249,Anthropic,Anthropic,True,exact,100.0,2023-05-17,parsed,2023,2,5,AI_ML,AI/ML,$380.0 million,380000000,parsed,USD,17,249,2026-08-22T21:58:37.269504+00:00
+ART0250,Anthropic,Anthropic,True,exact,100.0,2020-10-29,parsed,2020,4,10,CLOUD,Cloud Computing,"€10,909,091",12000000,parsed,EUR,14,250,2026-08-22T21:58:37.269504+00:00
+ART0251,Stripe,Stripe,True,exact,100.0,2021-10-22,parsed,2021,4,10,CLOUD,Cloud,$1.550B,1550000000,parsed,USD,19,251,2026-08-22T21:58:37.269504+00:00
+ART0252,Snowflake,Snowflake,True,exact,100.0,2023-11-11,parsed,2023,4,11,CLOUD,Cloud Computing,$2800.0 million,2800000000,parsed,USD,11,252,2026-08-22T21:58:37.269504+00:00
+ART0253,Scale AI,Scale AI,True,exact,100.0,2020-08-01,parsed,2020,3,8,CLOUD,Cloud Computing,"€122,727,273",135000000,parsed,EUR,17,253,2026-08-22T21:58:37.269504+00:00
+ART0254,Scale AI,Scale AI,True,exact,100.0,2021-11-18,parsed,2021,4,11,AI_ML,AI/ML,$340.0M,340000000,parsed,USD,18,254,2026-08-22T21:58:37.269504+00:00
+ART0255,Palantir,Palantir,True,exact,100.0,2022-05-09,parsed,2022,2,5,SECURITY,Cybersecurity,N/A,,missing,,17,255,2026-08-22T21:58:37.269504+00:00
+ART0256,Anthropic,Anthropic,True,exact,100.0,2020-11-02,parsed,2020,4,11,FINTECH,Financial Technology,N/A,,missing,,14,256,2026-08-22T21:58:37.269504+00:00
+ART0257,Stripe,Stripe,True,exact,100.0,2023-06-10,parsed,2023,2,6,AI_ML,AI/ML,"$2,600,000,000",2600000000,parsed,USD,21,257,2026-08-22T21:58:37.269504+00:00
+ART0258,SpaceX,SpaceX,True,exact,100.0,2023-02-08,parsed,2023,1,2,SOFTWARE,Software,$7.000B,7000000000,parsed,USD,7,258,2026-08-22T21:58:37.269504+00:00
+ART0259,Microsoft,Microsoft,True,exact,100.0,2022-01-08,parsed,2022,1,1,SECURITY,Cybersecurity,"$61,000,000,000",61000000000,parsed,USD,4,259,2026-08-22T21:58:37.269504+00:00
+ART0260,Cloudflare,Cloudflare,True,exact,100.0,2021-09-23,parsed,2021,3,9,SECURITY,InfoSec,N/A,,missing,,23,260,2026-08-22T21:58:37.269504+00:00
+ART0261,Anthropic,Anthropic,True,exact,100.0,2022-06-19,parsed,2022,2,6,FINTECH,Financial Technology,$130.0M,130000000,parsed,USD,16,261,2026-08-22T21:58:37.269504+00:00
+ART0262,Confluent,Confluent,True,exact,100.0,2023-02-07,parsed,2023,1,2,DATA_ANALYTICS,Big Data,"¥118,500,000,000",790000000,parsed,JPY,28,262,2026-08-22T21:58:37.269504+00:00
+ART0263,MongoDB,MongoDB,True,exact,100.0,2022-11-24,parsed,2022,4,11,CLOUD,Cloud Computing,$1.380B,1380000000,parsed,USD,14,263,2026-08-22T21:58:37.269504+00:00
+ART0264,Google DeepMind,Google DeepMind,True,exact,100.0,2022-06-10,parsed,2022,2,6,CLOUD,Cloud Computing,"£480,314,961",610000000,parsed,GBP,5,264,2026-08-22T21:58:37.269504+00:00
+ART0265,MongoDB,MongoDB,True,exact,100.0,2020-01-26,parsed,2020,1,1,SOFTWARE,Enterprise Software,N/A,,missing,,12,265,2026-08-22T21:58:37.269504+00:00
+ART0266,Meta AI,Meta AI,True,exact,100.0,2020-07-25,parsed,2020,3,7,SOFTWARE,Software,,,missing,,19,266,2026-08-22T21:58:37.269504+00:00
+ART0267,DataRobot,DataRobot,True,exact,100.0,2023-10-26,parsed,2023,4,10,DATA_ANALYTICS,Big Data,Not disclosed,,not_disclosed,,11,267,2026-08-22T21:58:37.269504+00:00
+ART0268,Snowflake,Snowflake,True,exact,100.0,2022-10-03,parsed,2022,4,10,AI_ML,AI & ML,$2.180 billion,2180000000,parsed,USD,10,268,2026-08-22T21:58:37.269504+00:00
+ART0269,Tesla,Tesla,True,exact,100.0,2021-03-08,parsed,2021,1,3,SECURITY,InfoSec,$31.000B,31000000000,parsed,USD,13,269,2026-08-22T21:58:37.269504+00:00
+ART0270,MongoDB,MongoDB,True,exact,100.0,2020-02-29,parsed,2020,1,2,CLOUD,Cloud Services,"¥75,000,000,000",500000000,parsed,JPY,12,270,2026-08-22T21:58:37.269504+00:00
+ART0271,Airbnb,Airbnb,True,exact,100.0,2022-10-31,parsed,2022,4,10,AI_ML,AI & ML,N/A,,missing,,23,271,2026-08-22T21:58:37.269504+00:00
+ART0272,Amazon Web Services,Amazon Web Services,True,exact,100.0,2023-11-11,parsed,2023,4,11,FINTECH,Finance,$95.000B,95000000000,parsed,USD,8,272,2026-08-22T21:58:37.269504+00:00
+ART0273,Scale AI,Scale AI,True,exact,100.0,2022-11-17,parsed,2022,4,11,AI_ML,AI/ML,$570.0M,570000000,parsed,USD,19,273,2026-08-22T21:58:37.269504+00:00
+ART0274,Scale AI,Scale AI,True,exact,100.0,2022-05-17,parsed,2022,2,5,DATA_ANALYTICS,Analytics,$408.5M - $451.5M,430000000,parsed,USD,19,274,2026-08-22T21:58:37.269504+00:00
+ART0275,MongoDB,MongoDB,True,exact,100.0,2022-02-05,parsed,2022,1,2,FINTECH,Finance,"€981,818,182",1080000000,parsed,EUR,14,275,2026-08-22T21:58:37.269504+00:00
+ART0276,Databricks,Databricks,True,exact,100.0,2023-12-27,parsed,2023,4,12,FINTECH,Finance,Not disclosed,,not_disclosed,,20,276,2026-08-22T21:58:37.269504+00:00
+ART0277,Confluent,Confluent,True,exact,100.0,2023-03-17,parsed,2023,1,3,DATA_ANALYTICS,Data Analytics,$750.5M - $829.5M,790000000,parsed,USD,28,277,2026-08-22T21:58:37.269504+00:00
+ART0278,Amazon Web Services,Amazon Web Services,True,exact,100.0,2020-07-18,parsed,2020,3,7,CLOUD,Cloud Computing,$45.500B,45500000000,parsed,USD,5,278,2026-08-22T21:58:37.269504+00:00
+ART0279,Airbnb,Airbnb,True,exact,100.0,2023-04-14,parsed,2023,2,4,SECURITY,Security,N/A,,missing,,24,279,2026-08-22T21:58:37.269504+00:00
+ART0280,MongoDB,MongoDB,True,exact,100.0,2022-04-26,parsed,2022,2,4,CLOUD,Cloud Computing,N/A,,missing,,14,280,2026-08-22T21:58:37.269504+00:00
+ART0281,Cloudflare,Cloudflare,True,exact,100.0,2023-07-16,parsed,2023,3,7,DATA_ANALYTICS,Data Analytics,Not disclosed,,not_disclosed,,25,281,2026-08-22T21:58:37.269504+00:00
+ART0282,Google DeepMind,Google DeepMind,True,exact,100.0,2023-06-12,parsed,2023,2,6,SECURITY,Cybersecurity,,,missing,,6,282,2026-08-22T21:58:37.269504+00:00
+ART0283,OpenAI,OpenAI,True,exact,100.0,2022-12-23,parsed,2022,4,12,AI_ML,AI/ML,Not disclosed,,not_disclosed,,16,283,2026-08-22T21:58:37.269504+00:00
+ART0284,Confluent,Confluent,True,exact,100.0,2020-12-08,parsed,2020,4,12,AI_ML,Artificial Intelligence,N/A,,missing,,25,284,2026-08-22T21:58:37.269504+00:00
+ART0285,Amazon Web Services,Amazon Web Services,True,exact,100.0,2020-02-09,parsed,2020,1,2,FINTECH,FinTech,$38.000B,38000000000,parsed,USD,5,285,2026-08-22T21:58:37.269504+00:00
+ART0286,Uber,Uber,True,exact,100.0,2021-06-07,parsed,2021,2,6,AI_ML,Artificial Intelligence,"$14,500,000,000",14500000000,parsed,USD,6,286,2026-08-22T21:58:37.269504+00:00
+ART0287,Meta AI,Meta AI,True,exact,100.0,2021-06-01,parsed,2021,2,6,CLOUD,Cloud Computing,,,missing,,20,287,2026-08-22T21:58:37.269504+00:00
+ART0288,Microsoft,Microsoft,True,exact,100.0,2020-08-02,parsed,2020,3,8,AI_ML,AI & ML,N/A,,missing,,2,288,2026-08-22T21:58:37.269504+00:00
+ART0289,Tesla,Tesla,True,exact,100.0,2023-12-11,parsed,2023,4,12,FINTECH,Finance,Not disclosed,,not_disclosed,,15,289,2026-08-22T21:58:37.269504+00:00
+ART0290,Google DeepMind,Google DeepMind,True,exact,100.0,2023-03-21,parsed,2023,1,3,SECURITY,InfoSec,$0.830 billion,830000000,parsed,USD,6,290,2026-08-22T21:58:37.269504+00:00
+ART0291,Databricks,Databricks,True,exact,100.0,2020-04-12,parsed,2020,2,4,CLOUD,Cloud,,,missing,,17,291,2026-08-22T21:58:37.269504+00:00
+ART0292,Microsoft,Microsoft,True,exact,100.0,2023-08-18,parsed,2023,3,8,DATA_ANALYTICS,Data Analytics,"€68,909,090,909",75800000000,parsed,EUR,5,292,2026-08-22T21:58:37.269504+00:00
+ART0293,Databricks,Databricks,True,exact,100.0,2023-11-13,parsed,2023,4,11,SECURITY,Cybersecurity,"$2,400,000,000",2400000000,parsed,USD,20,293,2026-08-22T21:58:37.269504+00:00
+ART0294,Cloudflare,Cloudflare,True,exact,100.0,2023-10-21,parsed,2023,4,10,CLOUD,Cloud,$1350.0 million,1350000000,parsed,USD,25,294,2026-08-22T21:58:37.269504+00:00
+ART0295,Palantir,Palantir,True,exact,100.0,2020-09-05,parsed,2020,3,9,DATA_ANALYTICS,Data Analytics,"£850,393,701",1080000000,parsed,GBP,15,295,2026-08-22T21:58:37.269504+00:00
+ART0296,Scale AI,Scale AI,True,exact,100.0,2020-10-31,parsed,2020,4,10,AI_ML,Artificial Intelligence,,,missing,,17,296,2026-08-22T21:58:37.269504+00:00
+ART0297,NVIDIA,NVIDIA,True,exact,100.0,2021-07-23,parsed,2021,3,7,SOFTWARE,SaaS,Not disclosed,,not_disclosed,,4,297,2026-08-22T21:58:37.269504+00:00
+ART0298,Palantir,Palantir,True,exact,100.0,2022-10-17,parsed,2022,4,10,DATA_ANALYTICS,Data Analytics,,,missing,,17,298,2026-08-22T21:58:37.269504+00:00
+ART0299,DataRobot,DataRobot,True,exact,100.0,2023-07-29,parsed,2023,3,7,SOFTWARE,SaaS,$355.0M,355000000,parsed,USD,11,299,2026-08-22T21:58:37.269504+00:00
+ART0300,Cloudflare,Cloudflare,True,exact,100.0,2023-07-09,parsed,2023,3,7,SECURITY,Security,"€1,145,454,545",1260000000,parsed,EUR,25,300,2026-08-22T21:58:37.269504+00:00
+ART0301,Meta AI,Meta AI,True,exact,100.0,2020-12-02,parsed,2020,4,12,CLOUD,Cloud Computing,"£149,606,299",190000000,parsed,GBP,19,301,2026-08-22T21:58:37.269504+00:00
+ART0302,Stripe,Stripe,True,exact,100.0,2022-04-28,parsed,2022,2,4,SOFTWARE,Enterprise Software,N/A,,missing,,20,302,2026-08-22T21:58:37.269504+00:00
+ART0303,Elastic,Elastic,True,exact,100.0,2023-04-13,parsed,2023,2,4,SOFTWARE,SaaS,$1.160B,1160000000,parsed,USD,7,303,2026-08-22T21:58:37.269504+00:00
+ART0304,MongoDB,MongoDB,True,exact,100.0,2022-05-07,parsed,2022,2,5,FINTECH,FinTech,"¥177,000,000,000",1180000000,parsed,JPY,14,304,2026-08-22T21:58:37.269504+00:00
+ART0305,Snowflake,Snowflake,True,exact,100.0,2023-01-26,parsed,2023,1,1,SOFTWARE,Software,"€2,136,363,636",2350000000,parsed,EUR,11,305,2026-08-22T21:58:37.269504+00:00
+ART0306,MongoDB,MongoDB,True,exact,100.0,2023-11-22,parsed,2023,4,11,DATA_ANALYTICS,Data Analytics,$1615.0M - $1785.0M,1700000000,parsed,USD,15,306,2026-08-22T21:58:37.269504+00:00
+ART0307,Anthropic,Anthropic,True,exact,100.0,2021-06-30,parsed,2021,2,6,FINTECH,Finance,$28.0M,28000000,parsed,USD,15,307,2026-08-22T21:58:37.269504+00:00
+ART0308,Meta AI,Meta AI,True,exact,100.0,2023-10-15,parsed,2023,4,10,SOFTWARE,Software,"$1,500,000,000",1500000000,parsed,USD,22,308,2026-08-22T21:58:37.269504+00:00
+ART0309,Elastic,Elastic,True,exact,100.0,2020-01-27,parsed,2020,1,1,FINTECH,Financial Technology,N/A,,missing,,4,309,2026-08-22T21:58:37.269504+00:00
+ART0310,MongoDB,MongoDB,True,exact,100.0,2022-02-11,parsed,2022,1,2,SECURITY,Cybersecurity,1080.0M USD,1080000000,parsed,USD,14,310,2026-08-22T21:58:37.269504+00:00
+ART0311,Anthropic,Anthropic,True,exact,100.0,2021-10-22,parsed,2021,4,10,AI_ML,Artificial Intelligence,$70.0M,70000000,parsed,USD,15,311,2026-08-22T21:58:37.269504+00:00
+ART0312,MongoDB,MongoDB,True,exact,100.0,2022-10-31,parsed,2022,4,10,SECURITY,Cybersecurity,$1.380B,1380000000,parsed,USD,14,312,2026-08-22T21:58:37.269504+00:00
+ART0313,Snowflake,Snowflake,True,exact,100.0,2023-06-20,parsed,2023,2,6,SECURITY,InfoSec,"€2,290,909,091",2520000000,parsed,EUR,11,313,2026-08-22T21:58:37.269504+00:00
+ART0314,Anthropic,Anthropic,True,exact,100.0,2021-10-19,parsed,2021,4,10,AI_ML,AI & ML,$66.5M - $73.5M,70000000,parsed,USD,15,314,2026-08-22T21:58:37.269504+00:00
+ART0315,Scale AI,Scale AI,True,exact,100.0,2021-10-18,parsed,2021,4,10,AI_ML,Machine Learning,$340.0M,340000000,parsed,USD,18,315,2026-08-22T21:58:37.269504+00:00
+ART0316,Meta AI,Meta AI,True,exact,100.0,2023-01-06,parsed,2023,1,1,SECURITY,Cybersecurity,"$1,200,000,000",1200000000,parsed,USD,22,316,2026-08-22T21:58:37.269504+00:00
+ART0317,Google DeepMind,Google DeepMind,True,exact,100.0,2020-12-30,parsed,2020,4,12,SOFTWARE,Software,"£137,795,276",175000001,parsed,GBP,3,317,2026-08-22T21:58:37.269504+00:00
+ART0318,Stripe,Stripe,True,exact,100.0,2022-03-08,parsed,2022,1,3,AI_ML,AI & ML,$1.700B,1700000000,parsed,USD,20,318,2026-08-22T21:58:37.269504+00:00
+ART0319,DataRobot,DataRobot,True,exact,100.0,2021-07-30,parsed,2021,3,7,DATA_ANALYTICS,Big Data,N/A,,missing,,9,319,2026-08-22T21:58:37.269504+00:00
+ART0320,Elastic,Elastic,True,exact,100.0,2023-07-22,parsed,2023,3,7,FINTECH,Finance,$1.200B,1200000000,parsed,USD,7,320,2026-08-22T21:58:37.269504+00:00
+ART0321,Elastic,Elastic,True,exact,100.0,2020-06-23,parsed,2020,2,6,CLOUD,Cloud Services,$660.0 million,660000000,parsed,USD,4,321,2026-08-22T21:58:37.269504+00:00
+ART0322,Meta AI,Meta AI,True,exact,100.0,2023-10-06,parsed,2023,4,10,AI_ML,Artificial Intelligence,$1.500 billion,1500000000,parsed,USD,22,322,2026-08-22T21:58:37.269504+00:00
+ART0323,Stripe,Stripe,True,exact,100.0,2020-09-19,parsed,2020,3,9,FINTECH,FinTech,Not disclosed,,not_disclosed,,18,323,2026-08-22T21:58:37.269504+00:00
+ART0324,Confluent,Confluent,True,exact,100.0,2023-03-04,parsed,2023,1,3,DATA_ANALYTICS,Analytics,$790.0M,790000000,parsed,USD,28,324,2026-08-22T21:58:37.269504+00:00
+ART0325,Databricks,Databricks,True,exact,100.0,2020-10-02,parsed,2020,4,10,DATA_ANALYTICS,Data Analytics,Not disclosed,,not_disclosed,,17,325,2026-08-22T21:58:37.269504+00:00
+ART0326,Google DeepMind,Google DeepMind,True,exact,100.0,2020-10-13,parsed,2020,4,10,CLOUD,Cloud Services,"$175,000,000",175000000,parsed,USD,3,326,2026-08-22T21:58:37.269504+00:00
+ART0327,Confluent,Confluent,True,exact,100.0,2022-04-09,parsed,2022,2,4,CLOUD,Cloud Services,"€595,454,545",655000000,parsed,EUR,27,327,2026-08-22T21:58:37.269504+00:00
+ART0328,Snowflake,Snowflake,True,exact,100.0,2022-08-09,parsed,2022,3,8,SOFTWARE,SaaS,2050.0M USD,2050000000,parsed,USD,10,328,2026-08-22T21:58:37.269504+00:00
+ART0329,Palantir,Palantir,True,exact,100.0,2021-01-01,parsed,2021,1,1,SOFTWARE,Enterprise Software,"¥177,000,000,000",1180000000,parsed,JPY,16,329,2026-08-22T21:58:37.269504+00:00
+ART0330,Anthropic,Anthropic,True,exact,100.0,2021-02-27,parsed,2021,1,2,DATA_ANALYTICS,Analytics,"$18,000,000",18000000,parsed,USD,15,330,2026-08-22T21:58:37.269504+00:00
+ART0331,Scale AI,Scale AI,True,exact,100.0,2021-06-23,parsed,2021,2,6,SOFTWARE,Software,$247.0M - $273.0M,260000000,parsed,USD,18,331,2026-08-22T21:58:37.269504+00:00
+ART0332,MongoDB,MongoDB,True,exact,100.0,2021-12-23,parsed,2021,4,12,SECURITY,InfoSec,"¥148,500,000,000",990000000,parsed,JPY,13,332,2026-08-22T21:58:37.269504+00:00
+ART0333,Scale AI,Scale AI,True,exact,100.0,2021-03-09,parsed,2021,1,3,CLOUD,Cloud,"£165,354,331",210000000,parsed,GBP,18,333,2026-08-22T21:58:37.269504+00:00
+ART0334,Cloudflare,Cloudflare,True,exact,100.0,2023-04-24,parsed,2023,2,4,SECURITY,Cybersecurity,$1180.0 million,1180000000,parsed,USD,25,334,2026-08-22T21:58:37.269504+00:00
+ART0335,Confluent,Confluent,True,exact,100.0,2020-04-24,parsed,2020,2,4,FINTECH,Financial Technology,$0.285 billion,285000000,parsed,USD,25,335,2026-08-22T21:58:37.269504+00:00
+ART0336,Cloudflare,Cloudflare,True,exact,100.0,2021-03-25,parsed,2021,1,3,CLOUD,Cloud Computing,$560.0 million,560000000,parsed,USD,23,336,2026-08-22T21:58:37.269504+00:00
+ART0337,DataRobot,DataRobot,True,exact,100.0,2020-05-20,parsed,2020,2,5,DATA_ANALYTICS,Big Data,$142.5M - $157.5M,150000000,parsed,USD,8,337,2026-08-22T21:58:37.269504+00:00
+ART0338,DataRobot,DataRobot,True,exact,100.0,2020-12-29,parsed,2020,4,12,AI_ML,Artificial Intelligence,"¥28,500,000,000",190000000,parsed,JPY,8,338,2026-08-22T21:58:37.269504+00:00
+ART0339,OpenAI,OpenAI,True,exact,100.0,2023-08-22,parsed,2023,3,8,SOFTWARE,SaaS,N/A,,missing,,17,339,2026-08-22T21:58:37.269504+00:00
+ART0340,Meta AI,Meta AI,True,exact,100.0,2020-01-10,parsed,2020,1,1,SECURITY,InfoSec,"$130,000,000",130000000,parsed,USD,19,340,2026-08-22T21:58:37.269504+00:00
+ART0341,MongoDB,MongoDB,True,exact,100.0,2022-11-30,parsed,2022,4,11,DATA_ANALYTICS,Big Data,$1.380B,1380000000,parsed,USD,14,341,2026-08-22T21:58:37.269504+00:00
+ART0342,Databricks,Databricks,True,exact,100.0,2022-05-17,parsed,2022,2,5,DATA_ANALYTICS,Analytics,N/A,,missing,,19,342,2026-08-22T21:58:37.269504+00:00
+ART0343,Snowflake,Snowflake,True,exact,100.0,2021-12-06,parsed,2021,4,12,DATA_ANALYTICS,Big Data,$1.530B,1530000000,parsed,USD,9,343,2026-08-22T21:58:37.269504+00:00
+ART0344,Elastic,Elastic,True,exact,100.0,2023-11-28,parsed,2023,4,11,AI_ML,Artificial Intelligence,,,missing,,7,344,2026-08-22T21:58:37.269504+00:00
+ART0345,DataRobot,DataRobot,True,exact,100.0,2022-02-26,parsed,2022,1,2,SOFTWARE,SaaS,$300.0M,300000000,parsed,USD,10,345,2026-08-22T21:58:37.269504+00:00
+ART0346,DataRobot,DataRobot,True,exact,100.0,2022-11-22,parsed,2022,4,11,FINTECH,FinTech,$295.0M,295000000,parsed,USD,10,346,2026-08-22T21:58:37.269504+00:00
+ART0347,Databricks,Databricks,True,exact,100.0,2021-12-24,parsed,2021,4,12,DATA_ANALYTICS,Big Data,$1.180B,1180000000,parsed,USD,18,347,2026-08-22T21:58:37.269504+00:00
+ART0348,Confluent,Confluent,True,exact,100.0,2021-12-12,parsed,2021,4,12,FINTECH,FinTech,Not disclosed,,not_disclosed,,26,348,2026-08-22T21:58:37.269504+00:00
+ART0349,Snowflake,Snowflake,True,exact,100.0,2020-08-27,parsed,2020,3,8,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,8,349,2026-08-22T21:58:37.269504+00:00
+ART0350,Scale AI,Scale AI,True,exact,100.0,2023-10-18,parsed,2023,4,10,FINTECH,FinTech,$0.760 billion,760000000,parsed,USD,20,350,2026-08-22T21:58:37.269504+00:00
+ART0351,Stripe,Stripe,True,exact,100.0,2023-02-09,parsed,2023,1,2,SECURITY,InfoSec,$2.300B,2300000000,parsed,USD,21,351,2026-08-22T21:58:37.269504+00:00
+ART0352,Databricks,Databricks,True,exact,100.0,2021-04-14,parsed,2021,2,4,FINTECH,FinTech,"¥135,000,000,000",900000000,parsed,JPY,18,352,2026-08-22T21:58:37.269504+00:00
+ART0353,Anthropic,Anthropic,True,exact,100.0,2022-01-30,parsed,2022,1,1,DATA_ANALYTICS,Data Analytics,N/A,,missing,,16,353,2026-08-22T21:58:37.269504+00:00
+ART0354,Microsoft,Microsoft,True,exact,100.0,2022-12-12,parsed,2022,4,12,SECURITY,InfoSec,N/A,,missing,,4,354,2026-08-22T21:58:37.269504+00:00
+ART0355,Stripe,Stripe,True,exact,100.0,2020-01-18,parsed,2020,1,1,CLOUD,Cloud Services,720.0M USD,720000000,parsed,USD,18,355,2026-08-22T21:58:37.269504+00:00
+ART0356,Databricks,Databricks,True,exact,100.0,2023-09-06,parsed,2023,3,9,DATA_ANALYTICS,Analytics,Not disclosed,,not_disclosed,,20,356,2026-08-22T21:58:37.269504+00:00
+ART0357,Confluent,Confluent,True,exact,100.0,2023-03-25,parsed,2023,1,3,FINTECH,FinTech,$790.0 million,790000000,parsed,USD,28,357,2026-08-22T21:58:37.269504+00:00
+ART0358,Microsoft,Microsoft,True,exact,100.0,2022-11-24,parsed,2022,4,11,DATA_ANALYTICS,Data Analytics,$68500.0 million,68500000000,parsed,USD,4,358,2026-08-22T21:58:37.269504+00:00
+ART0359,Scale AI,Scale AI,True,exact,100.0,2022-07-10,parsed,2022,3,7,DATA_ANALYTICS,Data Analytics,"$500,000,000",500000000,parsed,USD,19,359,2026-08-22T21:58:37.269504+00:00
+ART0360,Tesla,Tesla,True,exact,100.0,2023-03-25,parsed,2023,1,3,SOFTWARE,Software,$77900.0M - $86100.0M,82000000000,parsed,USD,15,360,2026-08-22T21:58:37.269504+00:00
+ART0361,Uber,Uber,True,exact,100.0,2021-08-09,parsed,2021,3,8,CLOUD,Cloud Computing,,,missing,,6,361,2026-08-22T21:58:37.269504+00:00
+ART0362,Stripe,Stripe,True,exact,100.0,2021-08-19,parsed,2021,3,8,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,19,362,2026-08-22T21:58:37.269504+00:00
+ART0363,SpaceX,SpaceX,True,exact,100.0,2021-01-11,parsed,2021,1,1,CLOUD,Cloud Computing,$3000.0 million,3000000000,parsed,USD,5,363,2026-08-22T21:58:37.269504+00:00
+ART0364,Cloudflare,Cloudflare,True,exact,100.0,2020-04-20,parsed,2020,2,4,DATA_ANALYTICS,Big Data,$0.420 billion,420000000,parsed,USD,22,364,2026-08-22T21:58:37.269504+00:00
+ART0365,Uber,Uber,True,exact,100.0,2021-04-14,parsed,2021,2,4,FINTECH,Finance,"$14,500,000,000",14500000000,parsed,USD,6,365,2026-08-22T21:58:37.269504+00:00
+ART0366,Cloudflare,Cloudflare,True,exact,100.0,2023-12-01,parsed,2023,4,12,SOFTWARE,Software,Not disclosed,,not_disclosed,,25,366,2026-08-22T21:58:37.269504+00:00
+ART0367,Palantir,Palantir,True,exact,100.0,2022-01-19,parsed,2022,1,1,FINTECH,Financial Technology,"€1,327,272,727",1460000000,parsed,EUR,17,367,2026-08-22T21:58:37.269504+00:00
+ART0368,Cloudflare,Cloudflare,True,exact,100.0,2020-01-19,parsed,2020,1,1,FINTECH,Finance,$390.0M,390000000,parsed,USD,22,368,2026-08-22T21:58:37.269504+00:00
+ART0369,Amazon Web Services,Amazon Web Services,True,exact,100.0,2023-08-15,parsed,2023,3,8,DATA_ANALYTICS,Big Data,$87400.0M - $96600.0M,92000000000,parsed,USD,8,369,2026-08-22T21:58:37.269504+00:00
+ART0370,Scale AI,Scale AI,True,exact,100.0,2022-12-25,parsed,2022,4,12,SECURITY,Cybersecurity,$570.0M,570000000,parsed,USD,19,370,2026-08-22T21:58:37.269504+00:00
+ART0371,DataRobot,DataRobot,True,exact,100.0,2021-01-19,parsed,2021,1,1,AI_ML,AI/ML,$0.220 billion,220000000,parsed,USD,9,371,2026-08-22T21:58:37.269504+00:00
+ART0372,NVIDIA,NVIDIA,True,exact,100.0,2020-11-04,parsed,2020,4,11,SECURITY,InfoSec,Not disclosed,,not_disclosed,,3,372,2026-08-22T21:58:37.269504+00:00
+ART0373,Google DeepMind,Google DeepMind,True,exact,100.0,2020-04-24,parsed,2020,2,4,DATA_ANALYTICS,Big Data,$0.120 billion,120000000,parsed,USD,3,373,2026-08-22T21:58:37.269504+00:00
+ART0374,Uber,Uber,True,exact,100.0,2021-05-21,parsed,2021,2,5,AI_ML,Artificial Intelligence,"¥2,175,000,000,000",14500000000,parsed,JPY,6,374,2026-08-22T21:58:37.269504+00:00
+ART0375,Amazon Web Services,Amazon Web Services,True,exact,100.0,2020-03-27,parsed,2020,1,3,SOFTWARE,Software,$38.000B,38000000000,parsed,USD,5,375,2026-08-22T21:58:37.269504+00:00
+ART0376,Meta AI,Meta AI,True,exact,100.0,2023-07-20,parsed,2023,3,7,DATA_ANALYTICS,Data Analytics,"£1,102,362,205",1400000000,parsed,GBP,22,376,2026-08-22T21:58:37.269504+00:00
+ART0377,Cloudflare,Cloudflare,True,exact,100.0,2023-05-06,parsed,2023,2,5,DATA_ANALYTICS,Analytics,1180.0M USD,1180000000,parsed,USD,25,377,2026-08-22T21:58:37.269504+00:00
+ART0378,Airbnb,Airbnb,True,exact,100.0,2020-11-11,parsed,2020,4,11,SOFTWARE,Software,$2850.0M - $3150.0M,3000000000,parsed,USD,21,378,2026-08-22T21:58:37.269504+00:00
+ART0379,Tesla,Tesla,True,exact,100.0,2023-11-12,parsed,2023,4,11,DATA_ANALYTICS,Analytics,,,missing,,15,379,2026-08-22T21:58:37.269504+00:00
+ART0380,Tesla,Tesla,True,exact,100.0,2021-01-17,parsed,2021,1,1,DATA_ANALYTICS,Analytics,$31.000B,31000000000,parsed,USD,13,380,2026-08-22T21:58:37.269504+00:00
+ART0381,Elastic,Elastic,True,exact,100.0,2022-07-18,parsed,2022,3,7,SOFTWARE,SaaS,Not disclosed,,not_disclosed,,6,381,2026-08-22T21:58:37.269504+00:00
+ART0382,Uber,Uber,True,exact,100.0,2022-12-09,parsed,2022,4,12,SECURITY,InfoSec,"£19,685,039,370",25000000000,parsed,GBP,7,382,2026-08-22T21:58:37.269504+00:00
+ART0383,Google DeepMind,Google DeepMind,True,exact,100.0,2020-09-22,parsed,2020,3,9,AI_ML,Artificial Intelligence,"$145,000,000",145000000,parsed,USD,3,383,2026-08-22T21:58:37.269504+00:00
+ART0384,MongoDB,MongoDB,True,exact,100.0,2023-12-07,parsed,2023,4,12,FINTECH,Financial Technology,$1.700B,1700000000,parsed,USD,15,384,2026-08-22T21:58:37.269504+00:00
+ART0385,Palantir,Palantir,True,exact,100.0,2020-04-05,parsed,2020,2,4,SOFTWARE,Software,$978.5M - $1081.5M,1030000000,parsed,USD,15,385,2026-08-22T21:58:37.269504+00:00
+ART0386,Snowflake,Snowflake,True,exact,100.0,2021-03-18,parsed,2021,1,3,AI_ML,AI & ML,$950.0M - $1050.0M,1000000000,parsed,USD,9,386,2026-08-22T21:58:37.269504+00:00
+ART0387,Elastic,Elastic,True,exact,100.0,2023-02-17,parsed,2023,1,2,AI_ML,AI & ML,$1100.0 million,1100000000,parsed,USD,7,387,2026-08-22T21:58:37.269504+00:00
+ART0388,Amazon Web Services,Amazon Web Services,True,exact,100.0,2023-05-13,parsed,2023,2,5,DATA_ANALYTICS,Analytics,Not disclosed,,not_disclosed,,8,388,2026-08-22T21:58:37.269504+00:00
+ART0389,Uber,Uber,True,exact,100.0,2021-04-06,parsed,2021,2,4,SECURITY,Security,$14.500 billion,14500000000,parsed,USD,6,389,2026-08-22T21:58:37.269504+00:00
+ART0390,OpenAI,OpenAI,True,exact,100.0,2021-03-30,parsed,2021,1,3,DATA_ANALYTICS,Data Analytics,"¥19,500,000,000",130000000,parsed,JPY,15,390,2026-08-22T21:58:37.269504+00:00
+ART0391,Confluent,Confluent,True,exact,100.0,2021-04-22,parsed,2021,2,4,FINTECH,Finance,"€413,636,364",455000000,parsed,EUR,26,391,2026-08-22T21:58:37.269504+00:00
+ART0392,Meta AI,Meta AI,True,exact,100.0,2023-08-08,parsed,2023,3,8,AI_ML,Artificial Intelligence,"£1,102,362,205",1400000000,parsed,GBP,22,392,2026-08-22T21:58:37.269504+00:00
+ART0393,Scale AI,Scale AI,True,exact,100.0,2020-01-24,parsed,2020,1,1,DATA_ANALYTICS,Big Data,$95.0M - $105.0M,100000000,parsed,USD,17,393,2026-08-22T21:58:37.269504+00:00
+ART0394,Microsoft,Microsoft,True,exact,100.0,2023-10-11,parsed,2023,4,10,DATA_ANALYTICS,Big Data,"£61,417,322,835",78000000000,parsed,GBP,5,394,2026-08-22T21:58:37.269504+00:00
+ART0395,Google DeepMind,Google DeepMind,True,exact,100.0,2023-03-16,parsed,2023,1,3,AI_ML,Artificial Intelligence,,,missing,,6,395,2026-08-22T21:58:37.269504+00:00
+ART0396,Elastic,Elastic,True,exact,100.0,2022-09-26,parsed,2022,3,9,SOFTWARE,Enterprise Software,$1.030 billion,1030000000,parsed,USD,6,396,2026-08-22T21:58:37.269504+00:00
+ART0397,Google DeepMind,Google DeepMind,True,exact,100.0,2023-10-07,parsed,2023,4,10,SECURITY,Cybersecurity,900.0M USD,900000000,parsed,USD,6,397,2026-08-22T21:58:37.269504+00:00
+ART0398,Airbnb,Airbnb,True,exact,100.0,2022-06-24,parsed,2022,2,6,CLOUD,Cloud Computing,$5600.0 million,5600000000,parsed,USD,23,398,2026-08-22T21:58:37.269504+00:00
+ART0399,NVIDIA,NVIDIA,True,exact,100.0,2020-10-29,parsed,2020,4,10,AI_ML,AI/ML,"¥1,890,000,000,000",12600000000,parsed,JPY,3,399,2026-08-22T21:58:37.269504+00:00
+ART0400,Tesla,Tesla,True,exact,100.0,2023-01-24,parsed,2023,1,1,FINTECH,Financial Technology,"£64,566,929,134",82000000000,parsed,GBP,15,400,2026-08-22T21:58:37.269504+00:00
+ART0401,Amazon Web Services,Amazon Web Services,True,exact,100.0,2021-08-04,parsed,2021,3,8,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,6,401,2026-08-22T21:58:37.269504+00:00
+ART0402,OpenAI,OpenAI,True,exact,100.0,2023-08-22,parsed,2023,3,8,FINTECH,FinTech,$1720.0 million,1720000000,parsed,USD,17,402,2026-08-22T21:58:37.269504+00:00
+ART0403,OpenAI,OpenAI,True,exact,100.0,2021-05-21,parsed,2021,2,5,FINTECH,Finance,"€163,636,364",180000000,parsed,EUR,15,403,2026-08-22T21:58:37.269504+00:00
+ART0404,Databricks,Databricks,True,exact,100.0,2023-05-07,parsed,2023,2,5,DATA_ANALYTICS,Big Data,$2150.0 million,2150000000,parsed,USD,20,404,2026-08-22T21:58:37.269504+00:00
+ART0405,Uber,Uber,True,exact,100.0,2023-10-20,parsed,2023,4,10,FINTECH,FinTech,Not disclosed,,not_disclosed,,8,405,2026-08-22T21:58:37.269504+00:00
+ART0406,Tesla,Tesla,True,exact,100.0,2020-10-10,parsed,2020,4,10,SOFTWARE,Software,26000.0M USD,26000000000,parsed,USD,12,406,2026-08-22T21:58:37.269504+00:00
+ART0407,Elastic,Elastic,True,exact,100.0,2020-08-30,parsed,2020,3,8,DATA_ANALYTICS,Data Analytics,Not disclosed,,not_disclosed,,4,407,2026-08-22T21:58:37.269504+00:00
+ART0408,Microsoft,Microsoft,True,exact,100.0,2020-08-06,parsed,2020,3,8,CLOUD,Cloud,44500.0M USD,44500000000,parsed,USD,2,408,2026-08-22T21:58:37.269504+00:00
+ART0409,Google DeepMind,Google DeepMind,True,exact,100.0,2022-09-03,parsed,2022,3,9,SOFTWARE,SaaS,,,missing,,5,409,2026-08-22T21:58:37.269504+00:00
+ART0410,Anthropic,Anthropic,True,exact,100.0,2020-01-31,parsed,2020,1,1,SECURITY,Cybersecurity,"¥750,000,000",5000000,parsed,JPY,14,410,2026-08-22T21:58:37.269504+00:00
+ART0411,NVIDIA,NVIDIA,True,exact,100.0,2022-04-09,parsed,2022,2,4,DATA_ANALYTICS,Big Data,"¥2,670,000,000,000",17800000000,parsed,JPY,5,411,2026-08-22T21:58:37.269504+00:00
+ART0412,MongoDB,MongoDB,True,exact,100.0,2022-03-21,parsed,2022,1,3,AI_ML,Artificial Intelligence,"¥162,000,000,000",1080000000,parsed,JPY,14,412,2026-08-22T21:58:37.269504+00:00
+ART0413,Palantir,Palantir,True,exact,100.0,2022-05-15,parsed,2022,2,5,AI_ML,Artificial Intelligence,$1472.5M - $1627.5M,1550000000,parsed,USD,17,413,2026-08-22T21:58:37.269504+00:00
+ART0414,Microsoft,Microsoft,True,exact,100.0,2022-04-26,parsed,2022,2,4,SECURITY,Security,,,missing,,4,414,2026-08-22T21:58:37.269504+00:00
+ART0415,Meta AI,Meta AI,True,exact,100.0,2020-08-21,parsed,2020,3,8,SECURITY,Security,N/A,,missing,,19,415,2026-08-22T21:58:37.269504+00:00
+ART0416,Stripe,Stripe,True,exact,100.0,2023-09-12,parsed,2023,3,9,CLOUD,Cloud,$2.950 billion,2950000000,parsed,USD,21,416,2026-08-22T21:58:37.269504+00:00
+ART0417,Meta AI,Meta AI,True,exact,100.0,2021-02-19,parsed,2021,1,2,FINTECH,Financial Technology,N/A,,missing,,20,417,2026-08-22T21:58:37.269504+00:00
+ART0418,SpaceX,SpaceX,True,exact,100.0,2020-06-11,parsed,2020,2,6,AI_ML,AI/ML,$2100.0 million,2100000000,parsed,USD,4,418,2026-08-22T21:58:37.269504+00:00
+ART0419,Anthropic,Anthropic,True,exact,100.0,2023-03-29,parsed,2023,1,3,FINTECH,Finance,N/A,,missing,,17,419,2026-08-22T21:58:37.269504+00:00
+ART0420,Confluent,Confluent,True,exact,100.0,2020-12-29,parsed,2020,4,12,SOFTWARE,Enterprise Software,"£267,716,535",339999999,parsed,GBP,25,420,2026-08-22T21:58:37.269504+00:00
+ART0421,Snowflake,Snowflake,True,exact,100.0,2020-10-02,parsed,2020,4,10,FINTECH,Financial Technology,"¥127,500,000,000",850000000,parsed,JPY,8,421,2026-08-22T21:58:37.269504+00:00
+ART0422,SpaceX,SpaceX,True,exact,100.0,2021-10-10,parsed,2021,4,10,SOFTWARE,SaaS,,,missing,,5,422,2026-08-22T21:58:37.269504+00:00
+ART0423,Tesla,Tesla,True,exact,100.0,2020-08-30,parsed,2020,3,8,SECURITY,Security,,,missing,,12,423,2026-08-22T21:58:37.269504+00:00
+ART0424,OpenAI,OpenAI,True,exact,100.0,2021-02-16,parsed,2021,1,2,FINTECH,Finance,$123.5M - $136.5M,130000000,parsed,USD,15,424,2026-08-22T21:58:37.269504+00:00
+ART0425,Stripe,Stripe,True,exact,100.0,2022-03-22,parsed,2022,1,3,SOFTWARE,Enterprise Software,Not disclosed,,not_disclosed,,20,425,2026-08-22T21:58:37.269504+00:00
+ART0426,Anthropic,Anthropic,True,exact,100.0,2020-10-05,parsed,2020,4,10,CLOUD,Cloud Computing,,,missing,,14,426,2026-08-22T21:58:37.269504+00:00
+ART0427,Elastic,Elastic,True,exact,100.0,2020-02-08,parsed,2020,1,2,SOFTWARE,Enterprise Software,$610.0 million,610000000,parsed,USD,4,427,2026-08-22T21:58:37.269504+00:00
+ART0428,Scale AI,Scale AI,True,exact,100.0,2020-12-05,parsed,2020,4,12,DATA_ANALYTICS,Big Data,$0.160 billion,160000000,parsed,USD,17,428,2026-08-22T21:58:37.269504+00:00
+ART0429,Airbnb,Airbnb,True,exact,100.0,2021-09-11,parsed,2021,3,9,SOFTWARE,SaaS,$4.200B,4200000000,parsed,USD,22,429,2026-08-22T21:58:37.269504+00:00
+ART0430,MongoDB,MongoDB,True,exact,100.0,2021-01-24,parsed,2021,1,1,SECURITY,InfoSec,$720.0M,720000000,parsed,USD,13,430,2026-08-22T21:58:37.269504+00:00
+ART0431,Anthropic,Anthropic,True,exact,100.0,2022-03-04,parsed,2022,1,3,SOFTWARE,SaaS,"€86,363,636",95000000,parsed,EUR,16,431,2026-08-22T21:58:37.269504+00:00
+ART0432,OpenAI,OpenAI,True,exact,100.0,2021-10-01,parsed,2021,4,10,CLOUD,Cloud Services,$304.0M - $336.0M,320000000,parsed,USD,15,432,2026-08-22T21:58:37.269504+00:00
+ART0433,Microsoft,Microsoft,True,exact,100.0,2021-07-14,parsed,2021,3,7,AI_ML,AI/ML,$52250.0M - $57750.0M,55000000000,parsed,USD,3,433,2026-08-22T21:58:37.269504+00:00
+ART0434,Snowflake,Snowflake,True,exact,100.0,2021-05-16,parsed,2021,2,5,AI_ML,Machine Learning,,,missing,,9,434,2026-08-22T21:58:37.269504+00:00
+ART0435,Meta AI,Meta AI,True,exact,100.0,2020-04-20,parsed,2020,2,4,SECURITY,Cybersecurity,$145.0M,145000000,parsed,USD,19,435,2026-08-22T21:58:37.269504+00:00
+ART0436,Palantir,Palantir,True,exact,100.0,2020-09-26,parsed,2020,3,9,SECURITY,Security,N/A,,missing,,15,436,2026-08-22T21:58:37.269504+00:00
+ART0437,Airbnb,Airbnb,True,exact,100.0,2021-01-10,parsed,2021,1,1,DATA_ANALYTICS,Data Analytics,"¥510,000,000,000",3400000000,parsed,JPY,22,437,2026-08-22T21:58:37.269504+00:00
+ART0438,Snowflake,Snowflake,True,exact,100.0,2023-05-22,parsed,2023,2,5,CLOUD,Cloud Computing,Not disclosed,,not_disclosed,,11,438,2026-08-22T21:58:37.269504+00:00
+ART0439,NVIDIA,NVIDIA,True,exact,100.0,2021-05-14,parsed,2021,2,5,CLOUD,Cloud,15000.0M USD,15000000000,parsed,USD,4,439,2026-08-22T21:58:37.269504+00:00
+ART0440,Elastic,Elastic,True,exact,100.0,2021-04-28,parsed,2021,2,4,AI_ML,Machine Learning,Not disclosed,,not_disclosed,,5,440,2026-08-22T21:58:37.269504+00:00
+ART0441,Snowflake,Snowflake,True,exact,100.0,2020-05-22,parsed,2020,2,5,AI_ML,AI & ML,"¥93,000,000,000",620000000,parsed,JPY,8,441,2026-08-22T21:58:37.269504+00:00
+ART0442,Tesla,Tesla,True,exact,100.0,2023-04-04,parsed,2023,2,4,AI_ML,AI/ML,"£70,866,141,732",90000000000,parsed,GBP,15,442,2026-08-22T21:58:37.269504+00:00
+ART0443,Stripe,Stripe,True,exact,100.0,2023-03-13,parsed,2023,1,3,FINTECH,Finance,2300.0M USD,2300000000,parsed,USD,21,443,2026-08-22T21:58:37.269504+00:00
+ART0444,Anthropic,Anthropic,True,exact,100.0,2023-01-29,parsed,2023,1,1,AI_ML,AI/ML,Not disclosed,,not_disclosed,,17,444,2026-08-22T21:58:37.269504+00:00
+ART0445,Uber,Uber,True,exact,100.0,2021-10-13,parsed,2021,4,10,DATA_ANALYTICS,Big Data,$17.000B,17000000000,parsed,USD,6,445,2026-08-22T21:58:37.269504+00:00
+ART0446,SpaceX,SpaceX,True,exact,100.0,2021-08-13,parsed,2021,3,8,CLOUD,Cloud Computing,$3900.0 million,3900000000,parsed,USD,5,446,2026-08-22T21:58:37.269504+00:00
+ART0447,Google DeepMind,Google DeepMind,True,exact,100.0,2023-08-08,parsed,2023,3,8,SECURITY,Security,,,missing,,6,447,2026-08-22T21:58:37.269504+00:00
+ART0448,Amazon Web Services,Amazon Web Services,True,exact,100.0,2023-05-23,parsed,2023,2,5,SOFTWARE,Enterprise Software,Not disclosed,,not_disclosed,,8,448,2026-08-22T21:58:37.269504+00:00
+ART0449,Meta AI,Meta AI,True,exact,100.0,2022-09-13,parsed,2022,3,9,AI_ML,Machine Learning,,,missing,,21,449,2026-08-22T21:58:37.269504+00:00
+ART0450,Cloudflare,Cloudflare,True,exact,100.0,2023-09-21,parsed,2023,3,9,AI_ML,Machine Learning,,,missing,,25,450,2026-08-22T21:58:37.269504+00:00
+ART0451,SpaceX,SpaceX,True,exact,100.0,2021-08-26,parsed,2021,3,8,CLOUD,Cloud,Not disclosed,,not_disclosed,,5,451,2026-08-22T21:58:37.269504+00:00
+ART0452,Anthropic,Anthropic,True,exact,100.0,2021-08-20,parsed,2021,3,8,AI_ML,AI/ML,$0.045 billion,45000000,parsed,USD,15,452,2026-08-22T21:58:37.269504+00:00
+ART0453,Databricks,Databricks,True,exact,100.0,2020-08-16,parsed,2020,3,8,CLOUD,Cloud,$0.500 billion,500000000,parsed,USD,17,453,2026-08-22T21:58:37.269504+00:00
+ART0454,Anthropic,Anthropic,True,exact,100.0,2020-06-21,parsed,2020,2,6,CLOUD,Cloud Computing,Not disclosed,,not_disclosed,,14,454,2026-08-22T21:58:37.269504+00:00
+ART0455,Tesla,Tesla,True,exact,100.0,2021-12-07,parsed,2021,4,12,FINTECH,Financial Technology,,,missing,,13,455,2026-08-22T21:58:37.269504+00:00
+ART0456,NVIDIA,NVIDIA,True,exact,100.0,2023-10-31,parsed,2023,4,10,DATA_ANALYTICS,Big Data,$45.000 billion,45000000000,parsed,USD,6,456,2026-08-22T21:58:37.269504+00:00
+ART0457,Anthropic,Anthropic,True,exact,100.0,2022-12-24,parsed,2022,4,12,DATA_ANALYTICS,Analytics,$0.250 billion,250000000,parsed,USD,16,457,2026-08-22T21:58:37.269504+00:00
+ART0458,Uber,Uber,True,exact,100.0,2023-10-14,parsed,2023,4,10,FINTECH,FinTech,"$34,000,000,000",34000000000,parsed,USD,8,458,2026-08-22T21:58:37.269504+00:00
+ART0459,Meta AI,Meta AI,True,exact,100.0,2022-02-07,parsed,2022,1,2,FINTECH,FinTech,700.0M USD,700000000,parsed,USD,21,459,2026-08-22T21:58:37.269504+00:00
+ART0460,DataRobot,DataRobot,True,exact,100.0,2020-09-06,parsed,2020,3,9,AI_ML,AI & ML,$170.0M,170000000,parsed,USD,8,460,2026-08-22T21:58:37.269504+00:00
+ART0461,Google DeepMind,Google DeepMind,True,exact,100.0,2022-07-17,parsed,2022,3,7,SECURITY,Cybersecurity,$710.0 million,710000000,parsed,USD,5,461,2026-08-22T21:58:37.269504+00:00
+ART0462,Uber,Uber,True,exact,100.0,2020-03-05,parsed,2020,1,3,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,5,462,2026-08-22T21:58:37.269504+00:00
+ART0463,Microsoft,Microsoft,True,exact,100.0,2022-06-02,parsed,2022,2,6,AI_ML,AI & ML,$64.000B,64000000000,parsed,USD,4,463,2026-08-22T21:58:37.269504+00:00
+ART0464,OpenAI,OpenAI,True,exact,100.0,2020-10-31,parsed,2020,4,10,AI_ML,AI/ML,"€86,363,636",95000000,parsed,EUR,14,464,2026-08-22T21:58:37.269504+00:00
+ART0465,Cloudflare,Cloudflare,True,exact,100.0,2022-06-12,parsed,2022,2,6,AI_ML,Machine Learning,,,missing,,24,465,2026-08-22T21:58:37.269504+00:00
+ART0466,Stripe,Stripe,True,exact,100.0,2021-09-12,parsed,2021,3,9,AI_ML,Artificial Intelligence,$1.380B,1380000000,parsed,USD,19,466,2026-08-22T21:58:37.269504+00:00
+ART0467,Elastic,Elastic,True,exact,100.0,2022-02-25,parsed,2022,1,2,CLOUD,Cloud Services,,,missing,,6,467,2026-08-22T21:58:37.269504+00:00
+ART0468,Anthropic,Anthropic,True,exact,100.0,2020-02-21,parsed,2020,1,2,SOFTWARE,Enterprise Software,"¥750,000,000",5000000,parsed,JPY,14,468,2026-08-22T21:58:37.269504+00:00
+ART0469,Anthropic,Anthropic,True,exact,100.0,2020-04-24,parsed,2020,2,4,AI_ML,Artificial Intelligence,Not disclosed,,not_disclosed,,14,469,2026-08-22T21:58:37.269504+00:00
+ART0470,Microsoft,Microsoft,True,exact,100.0,2023-09-01,parsed,2023,3,9,SECURITY,InfoSec,$75800.0 million,75800000000,parsed,USD,5,470,2026-08-22T21:58:37.269504+00:00
+ART0471,Palantir,Palantir,True,exact,100.0,2020-12-15,parsed,2020,4,12,AI_ML,Machine Learning,"£881,889,764",1120000000,parsed,GBP,15,471,2026-08-22T21:58:37.269504+00:00
+ART0472,Meta AI,Meta AI,True,exact,100.0,2023-03-25,parsed,2023,1,3,CLOUD,Cloud Computing,"€1,090,909,091",1200000000,parsed,EUR,22,472,2026-08-22T21:58:37.269504+00:00
+ART0473,Amazon Web Services,Amazon Web Services,True,exact,100.0,2022-01-27,parsed,2022,1,1,CLOUD,Cloud,70000.0M USD,70000000000,parsed,USD,7,473,2026-08-22T21:58:37.269504+00:00
+ART0474,Cloudflare,Cloudflare,True,exact,100.0,2020-01-14,parsed,2020,1,1,CLOUD,Cloud,,,missing,,22,474,2026-08-22T21:58:37.269504+00:00
+ART0475,MongoDB,MongoDB,True,exact,100.0,2022-04-23,parsed,2022,2,4,CLOUD,Cloud,"¥177,000,000,000",1180000000,parsed,JPY,14,475,2026-08-22T21:58:37.269504+00:00
+ART0476,Airbnb,Airbnb,True,exact,100.0,2020-01-10,parsed,2020,1,1,FINTECH,FinTech,$2470.0M - $2730.0M,2600000000,parsed,USD,21,476,2026-08-22T21:58:37.269504+00:00
+ART0477,Databricks,Databricks,True,exact,100.0,2021-01-31,parsed,2021,1,1,CLOUD,Cloud Computing,"$740,000,000",740000000,parsed,USD,18,477,2026-08-22T21:58:37.269504+00:00
+ART0478,Databricks,Databricks,True,exact,100.0,2023-06-17,parsed,2023,2,6,AI_ML,Artificial Intelligence,Not disclosed,,not_disclosed,,20,478,2026-08-22T21:58:37.269504+00:00
+ART0479,Palantir,Palantir,True,exact,100.0,2023-02-04,parsed,2023,1,2,SECURITY,Cybersecurity,"€1,636,363,636",1800000000,parsed,EUR,18,479,2026-08-22T21:58:37.269504+00:00
+ART0480,Tesla,Tesla,True,exact,100.0,2021-03-27,parsed,2021,1,3,SECURITY,InfoSec,31000.0M USD,31000000000,parsed,USD,13,480,2026-08-22T21:58:37.269504+00:00
+ART0481,Palantir,Palantir,True,exact,100.0,2021-02-01,parsed,2021,1,2,DATA_ANALYTICS,Analytics,1180.0M USD,1180000000,parsed,USD,16,481,2026-08-22T21:58:37.269504+00:00
+ART0482,Palantir,Palantir,True,exact,100.0,2020-12-16,parsed,2020,4,12,FINTECH,FinTech,$1.120B,1120000000,parsed,USD,15,482,2026-08-22T21:58:37.269504+00:00
+ART0483,Confluent,Confluent,True,exact,100.0,2022-05-08,parsed,2022,2,5,AI_ML,AI/ML,"€595,454,545",655000000,parsed,EUR,27,483,2026-08-22T21:58:37.269504+00:00
+ART0484,Microsoft,Microsoft,True,exact,100.0,2020-01-11,parsed,2020,1,1,AI_ML,Artificial Intelligence,,,missing,,2,484,2026-08-22T21:58:37.269504+00:00
+ART0485,Cloudflare,Cloudflare,True,exact,100.0,2020-06-19,parsed,2020,2,6,AI_ML,AI/ML,$420.0M,420000000,parsed,USD,22,485,2026-08-22T21:58:37.269504+00:00
+ART0486,Snowflake,Snowflake,True,exact,100.0,2023-12-11,parsed,2023,4,12,SOFTWARE,Enterprise Software,N/A,,missing,,11,486,2026-08-22T21:58:37.269504+00:00
+ART0487,Scale AI,Scale AI,True,exact,100.0,2023-12-12,parsed,2023,4,12,AI_ML,AI/ML,$0.760 billion,760000000,parsed,USD,20,487,2026-08-22T21:58:37.269504+00:00
+ART0488,Confluent,Confluent,True,exact,100.0,2023-11-03,parsed,2023,4,11,DATA_ANALYTICS,Data Analytics,$980.0M,980000000,parsed,USD,28,488,2026-08-22T21:58:37.269504+00:00
+ART0489,Airbnb,Airbnb,True,exact,100.0,2020-12-24,parsed,2020,4,12,SOFTWARE,Software,Not disclosed,,not_disclosed,,21,489,2026-08-22T21:58:37.269504+00:00
+ART0490,Tesla,Tesla,True,exact,100.0,2021-06-04,parsed,2021,2,6,DATA_ANALYTICS,Analytics,"$38,000,000,000",38000000000,parsed,USD,13,490,2026-08-22T21:58:37.269504+00:00
+ART0491,MongoDB,MongoDB,True,exact,100.0,2020-09-08,parsed,2020,3,9,SOFTWARE,Software,"¥88,500,000,000",590000000,parsed,JPY,12,491,2026-08-22T21:58:37.269504+00:00
+ART0492,Snowflake,Snowflake,True,exact,100.0,2020-08-11,parsed,2020,3,8,FINTECH,Financial Technology,$730.0M,730000000,parsed,USD,8,492,2026-08-22T21:58:37.269504+00:00
+ART0493,SpaceX,SpaceX,True,exact,100.0,2023-01-13,parsed,2023,1,1,SECURITY,InfoSec,$7.000B,7000000000,parsed,USD,7,493,2026-08-22T21:58:37.269504+00:00
+ART0494,MongoDB,MongoDB,True,exact,100.0,2021-11-18,parsed,2021,4,11,SOFTWARE,Enterprise Software,,,missing,,13,494,2026-08-22T21:58:37.269504+00:00
+ART0495,Amazon Web Services,Amazon Web Services,True,exact,100.0,2021-04-09,parsed,2021,2,4,DATA_ANALYTICS,Analytics,"€52,727,272,727",58000000000,parsed,EUR,6,495,2026-08-22T21:58:37.269504+00:00
+ART0496,Elastic,Elastic,True,exact,100.0,2021-01-08,parsed,2021,1,1,CLOUD,Cloud Computing,820.0M USD,820000000,parsed,USD,5,496,2026-08-22T21:58:37.269504+00:00
+ART0497,Tesla,Tesla,True,exact,100.0,2023-12-19,parsed,2023,4,12,DATA_ANALYTICS,Data Analytics,$91200.0M - $100800.0M,96000000000,parsed,USD,15,497,2026-08-22T21:58:37.269504+00:00
+ART0498,Cloudflare,Cloudflare,True,exact,100.0,2022-07-27,parsed,2022,3,7,CLOUD,Cloud Computing,"¥141,750,000,000",945000000,parsed,JPY,24,498,2026-08-22T21:58:37.269504+00:00
+ART0499,Palantir,Palantir,True,exact,100.0,2023-11-12,parsed,2023,4,11,SECURITY,InfoSec,Not disclosed,,not_disclosed,,18,499,2026-08-22T21:58:37.269504+00:00
+ART0500,Stripe,Stripe,True,exact,100.0,2023-05-30,parsed,2023,2,5,CLOUD,Cloud Services,$2.600B,2600000000,parsed,USD,21,500,2026-08-22T21:58:37.269504+00:00
+ART0501,Amazon Web Services,Amazon Web Services,True,exact,100.0,2024-10-04,parsed,2024,4,10,SECURITY,InfoSec,$102600.0M,102600000000,parsed,USD,9,501,2026-08-22T21:58:37.269504+00:00
+ART0502,Mistral AI,Mistral AI,False,unmatched,70.58823529411764,2024-03-05,parsed,2024,1,3,DATA_ANALYTICS,Big Data,"$95,000,000",95000000,parsed,USD,,502,2026-08-22T21:58:37.269504+00:00
+ART0503,Amazon Web Services,AWS,True,alias,100.0,2024-06-09,parsed,2024,2,6,DATA_ANALYTICS,Data Analytics,$98.800 billion,98800000000,parsed,USD,9,503,2026-08-22T21:58:37.269504+00:00
+ART0504,Airbnb,Airbnb,True,exact,100.0,2023-11-27,parsed,2023,4,11,AI_ML,AI & ML,7800.0M USD,7800000000,parsed,USD,24,504,2026-08-22T21:58:37.269504+00:00
+ART0505,Elastic,Elastic,True,exact,100.0,2024-04-03,parsed,2024,2,4,CLOUD,Cloud,"€1,227,272,727",1350000000,parsed,EUR,8,505,2026-08-22T21:58:37.269504+00:00
+ART0506,DataRobot,DataRobot,True,exact,100.0,2024-05-05,parsed,2024,2,5,SOFTWARE,SaaS,"£305,511,811",388000000,parsed,GBP,12,506,2026-08-22T21:58:37.269504+00:00
+ART0507,Anthropic,Anthropic,True,exact,100.0,2024-10-15,parsed,2024,4,10,SOFTWARE,Enterprise Software,,,missing,,18,507,2026-08-22T21:58:37.269504+00:00
+ART0508,Snowflake,Snowflake,True,exact,100.0,2024-08-16,parsed,2024,3,8,AI_ML,AI/ML,$3.219B - $3.557B,3388000000,parsed,USD,12,508,2026-08-22T21:58:37.269504+00:00
+ART0509,Palantir,Palantir,True,exact,100.0,2023-05-22,parsed,2023,2,5,AI_ML,Artificial Intelligence,Not disclosed,,not_disclosed,,18,509,2026-08-22T21:58:37.269504+00:00
+ART0510,Google DeepMind,Google DeepMind,True,exact,100.0,2023-12-10,parsed,2023,4,12,DATA_ANALYTICS,Data Analytics,$0.900B,900000000,parsed,USD,6,510,2026-08-22T21:58:37.269504+00:00
+ART0511,Uber,Uber,True,exact,100.0,2024-11-07,parsed,2024,4,11,FINTECH,Financial Technology,$37400.0M,37400000000,parsed,USD,9,511,2026-08-22T21:58:37.269504+00:00
+ART0512,Databricks,Databricks,True,exact,100.0,2024-08-19,parsed,2024,3,8,SOFTWARE,Enterprise Software,"$3,168,000,000",3168000000,parsed,USD,21,512,2026-08-22T21:58:37.269504+00:00
+ART0513,Amazon Web Services,Amazon Web Services (AWS),True,alias,100.0,2024-03-04,parsed,2024,1,3,DATA_ANALYTICS,Big Data,$98.800 billion,98800000000,parsed,USD,9,513,2026-08-22T21:58:37.269504+00:00
+ART0514,Tesla,Tesla,True,exact,100.0,2024-04-11,parsed,2024,2,4,AI_ML,Machine Learning,96960.0M USD,96960000000,parsed,USD,16,514,2026-08-22T21:58:37.269504+00:00
+ART0515,Scale AI,Scale AI,True,exact,100.0,2023-09-13,parsed,2023,3,9,CLOUD,Cloud,"€668,181,818",735000000,parsed,EUR,20,515,2026-08-22T21:58:37.269504+00:00
+ART0516,Cloudflare,Cloudflare,True,exact,100.0,2022-07-15,parsed,2022,3,7,CLOUD,Cloud Computing,"£744,094,488",945000000,parsed,GBP,24,516,2026-08-22T21:58:37.269504+00:00
+ART0517,Perplexity AI,Perplexity AI,False,unmatched,50.0,2024-09-10,parsed,2024,3,9,DATA_ANALYTICS,Analytics,"¥12,750,000,000",85000000,parsed,JPY,,517,2026-08-22T21:58:37.269504+00:00
+ART0518,Cohere,Cohere,False,unmatched,50.0,2023-09-23,parsed,2023,3,9,FINTECH,Financial Technology,$87.2M - $96.4M,91800000,parsed,USD,,518,2026-08-22T21:58:37.269504+00:00
+ART0519,SpaceX,SpaceX,True,exact,100.0,2024-05-04,parsed,2024,2,5,AI_ML,AI/ML,$9180.0 million,9180000000,parsed,USD,8,519,2026-08-22T21:58:37.269504+00:00
+ART0520,OpenAI,OpenAI,True,exact,100.0,2023-08-17,parsed,2023,3,8,AI_ML,Artificial Intelligence,$1.720B,1720000000,parsed,USD,17,520,2026-08-22T21:58:37.269504+00:00
+ART0521,Microsoft,Microsoft Azure,True,alias,100.0,2024-01-25,parsed,2024,1,1,AI_ML,Machine Learning,$79170.0M,79170000000,parsed,USD,6,521,2026-08-22T21:58:37.269504+00:00
+ART0522,Microsoft,Azure,True,alias,100.0,2024-10-27,parsed,2024,4,10,AI_ML,AI & ML,"$83,850,000,000",83850000000,parsed,USD,6,522,2026-08-22T21:58:37.269504+00:00
+ART0523,Google DeepMind,DeepMind,True,alias,100.0,2023-03-27,parsed,2023,1,3,FINTECH,Financial Technology,$0.830 billion,830000000,parsed,USD,6,523,2026-08-22T21:58:37.269504+00:00
+ART0524,NVIDIA,NVIDIA,True,exact,100.0,2024-06-21,parsed,2024,2,6,FINTECH,Finance,54000.0M USD,54000000000,parsed,USD,7,524,2026-08-22T21:58:37.269504+00:00
+ART0525,Confluent,Confluent,True,exact,100.0,2023-04-15,parsed,2023,2,4,CLOUD,Cloud Services,"€781,818,182",860000000,parsed,EUR,28,525,2026-08-22T21:58:37.269504+00:00
+ART0526,MongoDB,MongoDB,True,exact,100.0,2023-12-04,parsed,2023,4,12,SECURITY,InfoSec,"£1,338,582,677",1700000000,parsed,GBP,15,526,2026-08-22T21:58:37.269504+00:00
+ART0527,Stripe,Stripe,True,exact,100.0,2024-06-11,parsed,2024,2,6,CLOUD,Cloud Computing,N/A,,missing,,22,527,2026-08-22T21:58:37.269504+00:00
+ART0528,Meta AI,Meta AI,True,exact,100.0,2024-01-13,parsed,2024,1,1,CLOUD,Cloud,$1.539B - $1.701B,1620000000,parsed,USD,23,528,2026-08-22T21:58:37.269504+00:00
+ART0529,Microsoft,Microsoft,True,exact,100.0,2023-01-10,parsed,2023,1,1,AI_ML,Machine Learning,N/A,,missing,,5,529,2026-08-22T21:58:37.269504+00:00
+ART0530,Amazon Web Services,Amazon Web Services,True,exact,100.0,2024-03-06,parsed,2024,1,3,DATA_ANALYTICS,Big Data,$96.900B,96900000000,parsed,USD,9,530,2026-08-22T21:58:37.269504+00:00
+ART0531,Airbnb,Airbnb,True,exact,100.0,2024-06-21,parsed,2024,2,6,CLOUD,Cloud Computing,$7722.0M,7722000000,parsed,USD,25,531,2026-08-22T21:58:37.269504+00:00
+ART0532,Elastic,Elastic,True,exact,100.0,2024-05-26,parsed,2024,2,5,SOFTWARE,Software,"$1,350,000,000",1350000000,parsed,USD,8,532,2026-08-22T21:58:37.269504+00:00
+ART0533,DataRobot,DataRobot,True,exact,100.0,2024-09-07,parsed,2024,3,9,FINTECH,Financial Technology,$0.399 billion,399000000,parsed,USD,12,533,2026-08-22T21:58:37.269504+00:00
+ART0534,Anthropic,Anthropic,True,exact,100.0,2023-02-28,parsed,2023,1,2,AI_ML,Artificial Intelligence,320.0M USD,320000000,parsed,USD,17,534,2026-08-22T21:58:37.269504+00:00
+ART0535,Snowflake,Snowflake,True,exact,100.0,2023-03-15,parsed,2023,1,3,AI_ML,AI/ML,N/A,,missing,,11,535,2026-08-22T21:58:37.269504+00:00
+ART0536,Cohere,Cohere,False,unmatched,50.0,2023-11-05,parsed,2023,4,11,AI_ML,Artificial Intelligence,"£91,023,622",115600000,parsed,GBP,,536,2026-08-22T21:58:37.269504+00:00
+ART0537,Palantir,Palantir,True,exact,100.0,2022-12-24,parsed,2022,4,12,FINTECH,Finance,"¥255,000,000,000",1700000000,parsed,JPY,17,537,2026-08-22T21:58:37.269504+00:00
+ART0538,Google DeepMind,Google Deepmind,True,exact_ci,100.0,2024-04-01,parsed,2024,2,4,FINTECH,Financial Technology,,,missing,,7,538,2026-08-22T21:58:37.269504+00:00
+ART0539,Google DeepMind,Google DeepMind,True,exact,100.0,2024-06-04,parsed,2024,2,6,SOFTWARE,Software,$1044.0 million,1044000000,parsed,USD,7,539,2026-08-22T21:58:37.269504+00:00
+ART0540,Uber,Uber,True,exact,100.0,2024-12-02,parsed,2024,4,12,AI_ML,AI/ML,$37.400B,37400000000,parsed,USD,9,540,2026-08-22T21:58:37.269504+00:00
+ART0541,Meta AI,Meta AI Research,True,alias,100.0,2024-03-07,parsed,2024,1,3,CLOUD,Cloud,$1830.0M,1830000000,parsed,USD,23,541,2026-08-22T21:58:37.269504+00:00
+ART0542,Databricks,Databricks,True,exact,100.0,2024-07-03,parsed,2024,3,7,AI_ML,Artificial Intelligence,"$3,168,000,000",3168000000,parsed,USD,21,542,2026-08-22T21:58:37.269504+00:00
+ART0543,Meta AI,Facebook AI Research,True,alias,100.0,2024-06-01,parsed,2024,2,6,AI_ML,Artificial Intelligence,Not disclosed,,not_disclosed,,23,543,2026-08-22T21:58:37.269504+00:00
+ART0544,Perplexity AI,Perplexity AI,False,unmatched,50.0,2024-03-19,parsed,2024,1,3,FINTECH,Financial Technology,35.0M USD,35000000,parsed,USD,,544,2026-08-22T21:58:37.269504+00:00
+ART0545,xAI,xAI,False,unmatched,44.44444444444444,2024-10-28,parsed,2024,4,10,CLOUD,Cloud Computing,"€163,636,364",180000000,parsed,EUR,,545,2026-08-22T21:58:37.269504+00:00
+ART0546,NVIDIA,Nvidia,True,exact_ci,100.0,2024-07-18,parsed,2024,3,7,FINTECH,Finance,"£46,062,992,126",58500000000,parsed,GBP,7,546,2026-08-22T21:58:37.269504+00:00
+ART0547,Tesla,Tesla,True,exact,100.0,2024-07-14,parsed,2024,3,7,DATA_ANALYTICS,Big Data,"¥14,832,000,000,000",98880000000,parsed,JPY,16,547,2026-08-22T21:58:37.269504+00:00
+ART0548,NVIDIA,NVIDIA Corporation,True,alias,100.0,2024-05-05,parsed,2024,2,5,AI_ML,Artificial Intelligence,$51.300B - $56.700B,54000000000,parsed,USD,7,548,2026-08-22T21:58:37.269504+00:00
+ART0549,OpenAI,Open AI,True,alias,100.0,2023-10-21,parsed,2023,4,10,SOFTWARE,Software,$1800.0 million,1800000000,parsed,USD,17,549,2026-08-22T21:58:37.269504+00:00
+ART0550,Scale AI,Scale AI,True,exact,100.0,2023-08-15,parsed,2023,3,8,FINTECH,Finance,$0.735B,735000000,parsed,USD,20,550,2026-08-22T21:58:37.269504+00:00
+ART0551,Cloudflare,Cloudflare,True,exact,100.0,2024-02-23,parsed,2024,1,2,DATA_ANALYTICS,Analytics,$1431.0M,1431000000,parsed,USD,26,551,2026-08-22T21:58:37.269504+00:00
+ART0552,SpaceX,SpaceX,True,exact,100.0,2024-08-06,parsed,2024,3,8,AI_ML,Artificial Intelligence,"$9,520,000,000",9520000000,parsed,USD,8,552,2026-08-22T21:58:37.269504+00:00
+ART0553,OpenAI,OpenAI,True,exact,100.0,2024-09-15,parsed,2024,3,9,SECURITY,Security,$3.420 billion,3420000000,parsed,USD,18,553,2026-08-22T21:58:37.269504+00:00
+ART0554,NVIDIA,NVIDIA,True,exact,100.0,2022-02-26,parsed,2022,1,2,SECURITY,InfoSec,17500.0M USD,17500000000,parsed,USD,5,554,2026-08-22T21:58:37.269504+00:00
+ART0555,Confluent,Confluent,True,exact,100.0,2024-10-27,parsed,2024,4,10,CLOUD,Cloud Computing,"€1,050,909,091",1156000000,parsed,EUR,29,555,2026-08-22T21:58:37.269504+00:00
+ART0556,MongoDB,MongoDB,True,exact,100.0,2023-08-21,parsed,2023,3,8,DATA_ANALYTICS,Analytics,"£1,291,338,583",1640000000,parsed,GBP,15,556,2026-08-22T21:58:37.269504+00:00
+ART0557,OpenAI,OpenAI Inc.,True,alias,100.0,2024-06-11,parsed,2024,2,6,DATA_ANALYTICS,Analytics,Not disclosed,,not_disclosed,,18,557,2026-08-22T21:58:37.269504+00:00
+ART0558,Stripe,Stripe,True,exact,100.0,2024-05-28,parsed,2024,2,5,CLOUD,Cloud Services,$3.488B - $3.856B,3672000000,parsed,USD,22,558,2026-08-22T21:58:37.269504+00:00
+ART0559,Meta AI,Meta AI,True,exact,100.0,2024-12-08,parsed,2024,4,12,SECURITY,Cybersecurity,$1950.0 million,1950000000,parsed,USD,23,559,2026-08-22T21:58:37.269504+00:00
+ART0560,Microsoft,Microsoft,True,exact,100.0,2022-11-10,parsed,2022,4,11,CLOUD,Cloud,$68.500B,68500000000,parsed,USD,4,560,2026-08-22T21:58:37.269504+00:00
+ART0561,Databricks,Databricks Inc.,True,alias,100.0,2024-12-11,parsed,2024,4,12,DATA_ANALYTICS,Data Analytics,$3480.0M,3480000000,parsed,USD,21,561,2026-08-22T21:58:37.269504+00:00
+ART0562,Snowflake,Snowflake Inc.,True,alias,100.0,2024-11-16,parsed,2024,4,11,AI_ML,AI/ML,"$3,612,000,000",3612000000,parsed,USD,12,562,2026-08-22T21:58:37.269504+00:00
+ART0563,Cloudflare,CloudFlare,True,exact_ci,100.0,2024-08-21,parsed,2024,3,8,AI_ML,Machine Learning,$1.566 billion,1566000000,parsed,USD,26,563,2026-08-22T21:58:37.269504+00:00
+ART0564,Amazon Web Services,Amazon Web Services,True,exact,100.0,2024-07-28,parsed,2024,3,7,FINTECH,FinTech,100700.0M USD,100700000000,parsed,USD,9,564,2026-08-22T21:58:37.269504+00:00
+ART0565,Airbnb,Airbnb,True,exact,100.0,2024-11-20,parsed,2024,4,11,SECURITY,Security,"€7,445,454,545",8190000000,parsed,EUR,25,565,2026-08-22T21:58:37.269504+00:00
+ART0566,DataRobot,Data Robot,True,alias,100.0,2023-03-09,parsed,2023,1,3,AI_ML,AI & ML,"£244,094,488",310000000,parsed,GBP,11,566,2026-08-22T21:58:37.269504+00:00
+ART0567,MongoDB,Mongo DB,True,alias,100.0,2024-05-21,parsed,2024,2,5,DATA_ANALYTICS,Data Analytics,"¥280,500,000,000",1870000000,parsed,JPY,16,567,2026-08-22T21:58:37.269504+00:00
+ART0568,Elastic,Elastic,True,exact,100.0,2023-11-15,parsed,2023,4,11,FINTECH,Financial Technology,$1.188B - $1.312B,1250000000,parsed,USD,7,568,2026-08-22T21:58:37.269504+00:00
+ART0569,DataRobot,DataRobot,True,exact,100.0,2024-05-09,parsed,2024,2,5,SECURITY,Cybersecurity,$399.0 million,399000000,parsed,USD,12,569,2026-08-22T21:58:37.269504+00:00
+ART0570,Anthropic,Anthropic,True,exact,100.0,2024-11-17,parsed,2024,4,11,SECURITY,Cybersecurity,$1.034B,1034000000,parsed,USD,18,570,2026-08-22T21:58:37.269504+00:00
+ART0571,Snowflake,Snowflake,True,exact,100.0,2023-05-12,parsed,2023,2,5,DATA_ANALYTICS,Big Data,$2520.0M,2520000000,parsed,USD,11,571,2026-08-22T21:58:37.269504+00:00
+ART0572,Palantir,Palantir,True,exact,100.0,2022-10-21,parsed,2022,4,10,SECURITY,Cybersecurity,"$1,700,000,000",1700000000,parsed,USD,17,572,2026-08-22T21:58:37.269504+00:00
+ART0573,Google DeepMind,Google DeepMind,True,exact,100.0,2023-10-10,parsed,2023,4,10,AI_ML,AI/ML,$0.900 billion,900000000,parsed,USD,6,573,2026-08-22T21:58:37.269504+00:00
+ART0574,Uber,Uber,True,exact,100.0,2024-03-24,parsed,2024,1,3,FINTECH,Finance,34680.0M USD,34680000000,parsed,USD,9,574,2026-08-22T21:58:37.269504+00:00
+ART0575,Palantir,Palantir Technologies,True,alias,100.0,2023-09-16,parsed,2023,3,9,DATA_ANALYTICS,Data Analytics,"€1,909,090,909",2100000000,parsed,EUR,18,575,2026-08-22T21:58:37.269504+00:00
+ART0576,Databricks,Databricks,True,exact,100.0,2024-04-21,parsed,2024,2,4,DATA_ANALYTICS,Data Analytics,"£2,286,614,173",2904000000,parsed,GBP,21,576,2026-08-22T21:58:37.269504+00:00
+ART0577,Tesla,Tesla,True,exact,100.0,2024-01-19,parsed,2024,1,1,DATA_ANALYTICS,Big Data,"¥14,256,000,000,000",95040000000,parsed,JPY,16,577,2026-08-22T21:58:37.269504+00:00
+ART0578,Scale AI,Scale AI,True,exact,100.0,2022-08-18,parsed,2022,3,8,AI_ML,Artificial Intelligence,$475.0M - $525.0M,500000000,parsed,USD,19,578,2026-08-22T21:58:37.269504+00:00
+ART0579,Cohere,Cohere,False,unmatched,50.0,2024-05-22,parsed,2024,2,5,SOFTWARE,SaaS,Not disclosed,,not_disclosed,,,579,2026-08-22T21:58:37.269504+00:00
+ART0580,Cloudflare,Cloudflare,True,exact,100.0,2023-05-15,parsed,2023,2,5,DATA_ANALYTICS,Analytics,$1.180B,1180000000,parsed,USD,25,580,2026-08-22T21:58:37.269504+00:00
+ART0581,SpaceX,SpaceX,True,exact,100.0,2024-09-16,parsed,2024,3,9,DATA_ANALYTICS,Analytics,$9520.0M,9520000000,parsed,USD,8,581,2026-08-22T21:58:37.269504+00:00
+ART0582,OpenAI,OpenAI,True,exact,100.0,2024-03-12,parsed,2024,1,3,CLOUD,Cloud,"$2,250,000,000",2250000000,parsed,USD,18,582,2026-08-22T21:58:37.269504+00:00
+ART0583,NVIDIA,NVIDIA,True,exact,100.0,2023-08-15,parsed,2023,3,8,AI_ML,AI/ML,Not disclosed,,not_disclosed,,6,583,2026-08-22T21:58:37.269504+00:00
+ART0584,Confluent,Confluent,True,exact,100.0,2024-03-13,parsed,2024,1,3,CLOUD,Cloud Computing,1019.0M USD,1019000000,parsed,USD,29,584,2026-08-22T21:58:37.269504+00:00
+ART0585,MongoDB,MongoDB,True,exact,100.0,2024-06-02,parsed,2024,2,6,DATA_ANALYTICS,Analytics,"€1,700,000,000",1870000000,parsed,EUR,16,585,2026-08-22T21:58:37.269504+00:00
+ART0586,Stripe,Stripe,True,exact,100.0,2022-12-16,parsed,2022,4,12,SOFTWARE,SaaS,"£1,614,173,228",2050000000,parsed,GBP,20,586,2026-08-22T21:58:37.269504+00:00
+ART0587,Meta AI,Meta AI,True,exact,100.0,2024-01-24,parsed,2024,1,1,AI_ML,Artificial Intelligence,"¥243,000,000,000",1620000000,parsed,JPY,23,587,2026-08-22T21:58:37.269504+00:00
+ART0588,Microsoft,Microsoft,True,exact,100.0,2023-05-10,parsed,2023,2,5,CLOUD,Cloud Computing,$69.825B - $77.175B,73500000000,parsed,USD,5,588,2026-08-22T21:58:37.269504+00:00
+ART0589,The Boring Company / SpaceX,The Boring Company / SpaceX,False,unmatched,36.36363636363637,2024-11-14,parsed,2024,4,11,SOFTWARE,SaaS,$9945.0 million,9945000000,parsed,USD,,589,2026-08-22T21:58:37.269504+00:00
+ART0590,Amazon Web Services,Amazon Web Services,True,exact,100.0,2022-01-20,parsed,2022,1,1,SECURITY,InfoSec,$70.000B,70000000000,parsed,USD,7,590,2026-08-22T21:58:37.269504+00:00
+ART0591,Airbnb,Airbnb,True,exact,100.0,2024-02-23,parsed,2024,1,2,SECURITY,Cybersecurity,$7878.0M,7878000000,parsed,USD,25,591,2026-08-22T21:58:37.269504+00:00
+ART0592,Stripe,Stripe Inc.,True,alias,100.0,2024-03-07,parsed,2024,1,3,DATA_ANALYTICS,Big Data,"$3,536,000,000",3536000000,parsed,USD,22,592,2026-08-22T21:58:37.269504+00:00
+ART0593,Elastic,Elastic,True,exact,100.0,2024-06-26,parsed,2024,2,6,SOFTWARE,Enterprise Software,$1.350 billion,1350000000,parsed,USD,8,593,2026-08-22T21:58:37.269504+00:00
+ART0594,DataRobot,DataRobot,True,exact,100.0,2024-10-09,parsed,2024,4,10,SECURITY,Cybersecurity,407.0M USD,407000000,parsed,USD,12,594,2026-08-22T21:58:37.269504+00:00
+ART0595,Cohere,Cohere,False,unmatched,50.0,2022-04-09,parsed,2022,2,4,SECURITY,Security,"€42,954,545",47250000,parsed,EUR,,595,2026-08-22T21:58:37.269504+00:00
+ART0596,Amazon Web Services,AWS,True,alias,100.0,2024-06-17,parsed,2024,2,6,SOFTWARE,Enterprise Software,N/A,,missing,,9,596,2026-08-22T21:58:37.269504+00:00
+ART0597,Anthropic,Anthropic,True,exact,100.0,2024-08-20,parsed,2024,3,8,SOFTWARE,Enterprise Software,"¥132,600,000,000",884000000,parsed,JPY,18,597,2026-08-22T21:58:37.269504+00:00
+ART0598,Snowflake,Snowflake,True,exact,100.0,2024-05-27,parsed,2024,2,5,FINTECH,Finance,$3.032B - $3.352B,3192000000,parsed,USD,12,598,2026-08-22T21:58:37.269504+00:00
+ART0599,Palantir,Palantir,True,exact,100.0,2024-07-06,parsed,2024,3,7,SECURITY,Security,$2576.0 million,2576000000,parsed,USD,19,599,2026-08-22T21:58:37.269504+00:00
+ART0600,Google DeepMind,Google DeepMind,True,exact,100.0,2022-08-27,parsed,2022,3,8,AI_ML,Artificial Intelligence,$0.710B,710000000,parsed,USD,5,600,2026-08-22T21:58:37.269504+00:00
+ART0601,Amazon Web Services,Amazon Web Services (AWS),True,alias,100.0,2024-07-08,parsed,2024,3,7,SOFTWARE,SaaS,N/A,,missing,,9,601,2026-08-22T21:58:37.269504+00:00
+ART0602,Uber,Uber,True,exact,100.0,2024-09-10,parsed,2024,3,9,DATA_ANALYTICS,Analytics,"$36,380,000,000",36380000000,parsed,USD,9,602,2026-08-22T21:58:37.269504+00:00
+ART0603,Databricks,Databricks,True,exact,100.0,2024-10-16,parsed,2024,4,10,CLOUD,Cloud Services,$3.480 billion,3480000000,parsed,USD,21,603,2026-08-22T21:58:37.269504+00:00
+ART0604,Cohere,Cohere,False,unmatched,50.0,2024-06-09,parsed,2024,2,6,FINTECH,Financial Technology,135.0M USD,135000000,parsed,USD,,604,2026-08-22T21:58:37.269504+00:00
+ART0605,Microsoft,Microsoft Azure,True,alias,100.0,2024-02-25,parsed,2024,1,2,DATA_ANALYTICS,Big Data,"€71,972,727,273",79170000000,parsed,EUR,6,605,2026-08-22T21:58:37.269504+00:00
+ART0606,Microsoft,Azure,True,alias,100.0,2024-12-02,parsed,2024,4,12,SECURITY,Security,"£66,023,622,047",83850000000,parsed,GBP,6,606,2026-08-22T21:58:37.269504+00:00
+ART0607,Tesla,Tesla,True,exact,100.0,2024-03-22,parsed,2024,1,3,SOFTWARE,Software,"¥14,256,000,000,000",95040000000,parsed,JPY,16,607,2026-08-22T21:58:37.269504+00:00
+ART0608,Scale AI,Scale AI,True,exact,100.0,2023-11-24,parsed,2023,4,11,SECURITY,InfoSec,$722.0M - $798.0M,760000000,parsed,USD,20,608,2026-08-22T21:58:37.269504+00:00
+ART0609,Google DeepMind,DeepMind,True,alias,100.0,2024-05-27,parsed,2024,2,5,AI_ML,Artificial Intelligence,$1044.0 million,1044000000,parsed,USD,7,609,2026-08-22T21:58:37.269504+00:00
+ART0610,Cloudflare,Cloudflare,True,exact,100.0,2024-04-08,parsed,2024,2,4,AI_ML,AI & ML,$1.499B,1499000000,parsed,USD,26,610,2026-08-22T21:58:37.269504+00:00
+ART0611,SpaceX,SpaceX,True,exact,100.0,2024-01-09,parsed,2024,1,1,CLOUD,Cloud Services,$9520.0M,9520000000,parsed,USD,8,611,2026-08-22T21:58:37.269504+00:00
+ART0612,OpenAI,OpenAI,True,exact,100.0,2024-04-24,parsed,2024,2,4,CLOUD,Cloud Services,"$2,790,000,000",2790000000,parsed,USD,18,612,2026-08-22T21:58:37.269504+00:00
+ART0613,NVIDIA,NVIDIA,True,exact,100.0,2024-03-24,parsed,2024,1,3,CLOUD,Cloud Services,N/A,,missing,,7,613,2026-08-22T21:58:37.269504+00:00
+ART0614,Google DeepMind,Google Deepmind,True,exact_ci,100.0,2024-12-19,parsed,2024,4,12,AI_ML,AI/ML,1215.0M USD,1215000000,parsed,USD,7,614,2026-08-22T21:58:37.269504+00:00
+ART0615,Confluent,Confluent,True,exact,100.0,2023-02-04,parsed,2023,1,2,FINTECH,Financial Technology,"€718,181,818",790000000,parsed,EUR,28,615,2026-08-22T21:58:37.269504+00:00
+ART0616,MongoDB,MongoDB,True,exact,100.0,2024-05-03,parsed,2024,2,5,SECURITY,InfoSec,"£1,472,440,945",1870000000,parsed,GBP,16,616,2026-08-22T21:58:37.269504+00:00
+ART0617,Meta AI,Meta AI Research,True,alias,100.0,2024-05-11,parsed,2024,2,5,SECURITY,Cybersecurity,"¥258,750,000,000",1725000000,parsed,JPY,23,617,2026-08-22T21:58:37.269504+00:00
+ART0618,Stripe,Stripe,True,exact,100.0,2024-05-09,parsed,2024,2,5,SOFTWARE,SaaS,$3.585B - $3.963B,3774000000,parsed,USD,22,618,2026-08-22T21:58:37.269504+00:00
+ART0619,Meta AI,Facebook AI Research,True,alias,100.0,2024-06-21,parsed,2024,2,6,AI_ML,AI/ML,$1725.0 million,1725000000,parsed,USD,23,619,2026-08-22T21:58:37.269504+00:00
+ART0620,Meta AI,Meta AI,True,exact,100.0,2024-05-01,parsed,2024,2,5,SOFTWARE,Software,$1.725B,1725000000,parsed,USD,23,620,2026-08-22T21:58:37.269504+00:00
+ART0621,NVIDIA,Nvidia,True,exact_ci,100.0,2024-08-13,parsed,2024,3,8,DATA_ANALYTICS,Big Data,$58500.0M,58500000000,parsed,USD,7,621,2026-08-22T21:58:37.269504+00:00
+ART0622,Microsoft,Microsoft,True,exact,100.0,2024-07-25,parsed,2024,3,7,CLOUD,Cloud Computing,"$82,290,000,000",82290000000,parsed,USD,6,622,2026-08-22T21:58:37.269504+00:00
+ART0623,Amazon Web Services,Amazon Web Services,True,exact,100.0,2024-12-20,parsed,2024,4,12,SECURITY,InfoSec,$102.600 billion,102600000000,parsed,USD,9,623,2026-08-22T21:58:37.269504+00:00
+ART0624,Hugging Face,Hugging Face,False,unmatched,33.333333333333336,2024-05-14,parsed,2024,2,5,CLOUD,Cloud Computing,82.0M USD,82000000,parsed,USD,,624,2026-08-22T21:58:37.269504+00:00
+ART0625,Airbnb,Airbnb,True,exact,100.0,2023-01-18,parsed,2023,1,1,SOFTWARE,Enterprise Software,"€6,000,000,000",6600000000,parsed,EUR,24,625,2026-08-22T21:58:37.269504+00:00
+ART0626,NVIDIA,NVIDIA Corporation,True,alias,100.0,2024-06-20,parsed,2024,2,6,FINTECH,Financial Technology,"£42,519,685,039",54000000000,parsed,GBP,7,626,2026-08-22T21:58:37.269504+00:00
+ART0627,xAI,xAI,False,unmatched,44.44444444444444,2024-01-04,parsed,2024,1,1,DATA_ANALYTICS,Data Analytics,"¥3,000,000,000",20000000,parsed,JPY,,627,2026-08-22T21:58:37.269504+00:00
+ART0628,Elastic,Elastic,True,exact,100.0,2023-12-27,parsed,2023,4,12,AI_ML,AI & ML,$1.188B - $1.312B,1250000000,parsed,USD,7,628,2026-08-22T21:58:37.269504+00:00
+ART0629,DataRobot,DataRobot,True,exact,100.0,2024-05-21,parsed,2024,2,5,AI_ML,Machine Learning,$388.0 million,388000000,parsed,USD,12,629,2026-08-22T21:58:37.269504+00:00
+ART0630,xAI,xAI,False,unmatched,44.44444444444444,2024-02-19,parsed,2024,1,2,AI_ML,AI/ML,,,missing,,,630,2026-08-22T21:58:37.269504+00:00
+ART0631,Anthropic,Anthropic,True,exact,100.0,2024-01-09,parsed,2024,1,1,AI_ML,Artificial Intelligence,$602.0M,602000000,parsed,USD,18,631,2026-08-22T21:58:37.269504+00:00
+ART0632,Mistral AI,Mistral AI,False,unmatched,70.58823529411764,2024-12-11,parsed,2024,4,12,FINTECH,Financial Technology,"$260,000,000",260000000,parsed,USD,,632,2026-08-22T21:58:37.269504+00:00
+ART0633,Snowflake,Snowflake,True,exact,100.0,2024-11-16,parsed,2024,4,11,CLOUD,Cloud,$3.612 billion,3612000000,parsed,USD,12,633,2026-08-22T21:58:37.269504+00:00
+ART0634,OpenAI,Open AI,True,alias,100.0,2023-06-10,parsed,2023,2,6,AI_ML,Artificial Intelligence,1600.0M USD,1600000000,parsed,USD,17,634,2026-08-22T21:58:37.269504+00:00
+ART0635,Palantir,Palantir,True,exact,100.0,2024-12-12,parsed,2024,4,12,SECURITY,Security,"€2,446,363,636",2691000000,parsed,EUR,19,635,2026-08-22T21:58:37.269504+00:00
+ART0636,Google DeepMind,Google DeepMind,True,exact,100.0,2023-10-22,parsed,2023,4,10,CLOUD,Cloud Services,"£708,661,417",900000000,parsed,GBP,6,636,2026-08-22T21:58:37.269504+00:00
+ART0637,Uber,Uber,True,exact,100.0,2024-06-03,parsed,2024,2,6,FINTECH,Finance,"¥5,304,000,000,000",35360000000,parsed,JPY,9,637,2026-08-22T21:58:37.269504+00:00
+ART0638,Databricks,Databricks,True,exact,100.0,2024-07-21,parsed,2024,3,7,AI_ML,Machine Learning,$3.010B - $3.326B,3168000000,parsed,USD,21,638,2026-08-22T21:58:37.269504+00:00
+ART0639,OpenAI,OpenAI Inc.,True,alias,100.0,2023-07-02,parsed,2023,3,7,CLOUD,Cloud Services,$1450.0 million,1450000000,parsed,USD,17,639,2026-08-22T21:58:37.269504+00:00
+ART0640,Tesla,Tesla,True,exact,100.0,2023-02-06,parsed,2023,1,2,CLOUD,Cloud Computing,Not disclosed,,not_disclosed,,15,640,2026-08-22T21:58:37.269504+00:00
+ART0641,Perplexity AI,Perplexity AI,False,unmatched,50.0,2024-08-19,parsed,2024,3,8,AI_ML,Machine Learning,$85.0M,85000000,parsed,USD,,641,2026-08-22T21:58:37.269504+00:00
+ART0642,Scale AI,Scale AI,True,exact,100.0,2024-10-10,parsed,2024,4,10,SOFTWARE,SaaS,"$1,307,000,000",1307000000,parsed,USD,21,642,2026-08-22T21:58:37.269504+00:00
+ART0643,Databricks,Databricks Inc.,True,alias,100.0,2022-09-05,parsed,2022,3,9,SECURITY,Security,$1.700 billion,1700000000,parsed,USD,19,643,2026-08-22T21:58:37.269504+00:00
+ART0644,Cloudflare,Cloudflare,True,exact,100.0,2024-12-14,parsed,2024,4,12,CLOUD,Cloud Computing,1647.0M USD,1647000000,parsed,USD,26,644,2026-08-22T21:58:37.269504+00:00
+ART0645,SpaceX,SpaceX,True,exact,100.0,2023-06-21,parsed,2023,2,6,AI_ML,AI/ML,"€6,909,090,909",7600000000,parsed,EUR,7,645,2026-08-22T21:58:37.269504+00:00
+ART0646,Hugging Face,Hugging Face,False,unmatched,33.333333333333336,2024-06-04,parsed,2024,2,6,DATA_ANALYTICS,Data Analytics,N/A,,missing,,,646,2026-08-22T21:58:37.269504+00:00
+ART0647,OpenAI,OpenAI,True,exact,100.0,2024-01-09,parsed,2024,1,1,SOFTWARE,SaaS,"¥337,500,000,000",2250000000,parsed,JPY,18,647,2026-08-22T21:58:37.269504+00:00
+ART0648,xAI,xAI,False,unmatched,44.44444444444444,2024-05-25,parsed,2024,2,5,DATA_ANALYTICS,Analytics,$47.5M - $52.5M,50000000,parsed,USD,,648,2026-08-22T21:58:37.269504+00:00
+ART0649,NVIDIA,NVIDIA,True,exact,100.0,2024-01-24,parsed,2024,1,1,DATA_ANALYTICS,Data Analytics,$49500.0 million,49500000000,parsed,USD,7,649,2026-08-22T21:58:37.269504+00:00
+ART0650,Snowflake,Snowflake Inc.,True,alias,100.0,2024-08-05,parsed,2024,3,8,SECURITY,Cybersecurity,$3.388B,3388000000,parsed,USD,12,650,2026-08-22T21:58:37.269504+00:00
+ART0651,Confluent,Confluent,True,exact,100.0,2024-10-04,parsed,2024,4,10,FINTECH,FinTech,$1156.0M,1156000000,parsed,USD,29,651,2026-08-22T21:58:37.269504+00:00
+ART0652,MongoDB,MongoDB,True,exact,100.0,2023-12-05,parsed,2023,4,12,DATA_ANALYTICS,Data Analytics,"$1,700,000,000",1700000000,parsed,USD,15,652,2026-08-22T21:58:37.269504+00:00
+ART0653,Cloudflare,CloudFlare,True,exact_ci,100.0,2024-04-18,parsed,2024,2,4,FINTECH,Finance,$1.499 billion,1499000000,parsed,USD,26,653,2026-08-22T21:58:37.269504+00:00
+ART0654,Stripe,Stripe,True,exact,100.0,2022-05-19,parsed,2022,2,5,SOFTWARE,SaaS,1820.0M USD,1820000000,parsed,USD,20,654,2026-08-22T21:58:37.269504+00:00
+ART0655,DataRobot,Data Robot,True,alias,100.0,2024-12-12,parsed,2024,4,12,FINTECH,Financial Technology,"€370,000,000",407000000,parsed,EUR,12,655,2026-08-22T21:58:37.269504+00:00
+ART0656,Meta AI,Meta AI,True,exact,100.0,2022-11-16,parsed,2022,4,11,DATA_ANALYTICS,Big Data,"£889,763,780",1130000001,parsed,GBP,21,656,2026-08-22T21:58:37.269504+00:00
+ART0657,Microsoft,Microsoft,True,exact,100.0,2024-07-20,parsed,2024,3,7,DATA_ANALYTICS,Big Data,"¥12,343,500,000,000",82290000000,parsed,JPY,6,657,2026-08-22T21:58:37.269504+00:00
+ART0658,MongoDB,Mongo DB,True,alias,100.0,2024-02-05,parsed,2024,1,2,CLOUD,Cloud,$1.696B - $1.874B,1785000000,parsed,USD,16,658,2026-08-22T21:58:37.269504+00:00
+ART0659,Palantir,Palantir Technologies,True,alias,100.0,2024-05-23,parsed,2024,2,5,CLOUD,Cloud,$2484.0 million,2484000000,parsed,USD,19,659,2026-08-22T21:58:37.269504+00:00
+ART0660,Amazon Web Services,Amazon Web Services,True,exact,100.0,2024-10-23,parsed,2024,4,10,CLOUD,Cloud,$102.600B,102600000000,parsed,USD,9,660,2026-08-22T21:58:37.269504+00:00
+ART0661,Airbnb,Airbnb,True,exact,100.0,2024-01-18,parsed,2024,1,1,AI_ML,Artificial Intelligence,$7878.0M,7878000000,parsed,USD,25,661,2026-08-22T21:58:37.269504+00:00
+ART0662,Hugging Face,Hugging Face,False,unmatched,33.333333333333336,2023-06-19,parsed,2023,2,6,AI_ML,AI/ML,"$55,760,000",55760000,parsed,USD,,662,2026-08-22T21:58:37.269504+00:00
+ART0663,The Boring Company / SpaceX,The Boring Company / SpaceX,False,unmatched,36.36363636363637,2023-12-22,parsed,2023,4,12,DATA_ANALYTICS,Data Analytics,$8.500 billion,8500000000,parsed,USD,,663,2026-08-22T21:58:37.269504+00:00
+ART0664,Elastic,Elastic,True,exact,100.0,2024-04-25,parsed,2024,2,4,SECURITY,Cybersecurity,1350.0M USD,1350000000,parsed,USD,8,664,2026-08-22T21:58:37.269504+00:00
+ART0665,Stripe,Stripe Inc.,True,alias,100.0,2024-10-25,parsed,2024,4,10,DATA_ANALYTICS,Big Data,"€3,554,545,455",3910000001,parsed,EUR,22,665,2026-08-22T21:58:37.269504+00:00
+ART0666,Amazon Web Services,AWS,True,alias,100.0,2024-05-25,parsed,2024,2,5,CLOUD,Cloud,"£77,795,275,591",98800000001,parsed,GBP,9,666,2026-08-22T21:58:37.269504+00:00
+ART0667,DataRobot,DataRobot,True,exact,100.0,2024-08-04,parsed,2024,3,8,DATA_ANALYTICS,Data Analytics,"¥58,200,000,000",388000000,parsed,JPY,12,667,2026-08-22T21:58:37.269504+00:00
+ART0668,Anthropic,Anthropic,True,exact,100.0,2024-10-03,parsed,2024,4,10,SOFTWARE,Software,$0.982B - $1.086B,1034000000,parsed,USD,18,668,2026-08-22T21:58:37.269504+00:00
+ART0669,Snowflake,Snowflake,True,exact,100.0,2024-07-08,parsed,2024,3,7,AI_ML,Artificial Intelligence,$3388.0 million,3388000000,parsed,USD,12,669,2026-08-22T21:58:37.269504+00:00
+ART0670,Amazon Web Services,Amazon Web Services (AWS),True,alias,100.0,2024-09-27,parsed,2024,3,9,CLOUD,Cloud,$100.700B,100700000000,parsed,USD,9,670,2026-08-22T21:58:37.269504+00:00
+ART0671,Microsoft,Microsoft Azure,True,alias,100.0,2024-09-22,parsed,2024,3,9,CLOUD,Cloud Services,$82290.0M,82290000000,parsed,USD,6,671,2026-08-22T21:58:37.269504+00:00
+ART0672,Palantir,Palantir,True,exact,100.0,2024-03-05,parsed,2024,1,3,AI_ML,AI/ML,"$2,392,000,000",2392000000,parsed,USD,19,672,2026-08-22T21:58:37.269504+00:00
+ART0673,Microsoft,Azure,True,alias,100.0,2024-05-19,parsed,2024,2,5,SOFTWARE,SaaS,$80.730 billion,80730000000,parsed,USD,6,673,2026-08-22T21:58:37.269504+00:00
+ART0674,Google DeepMind,Google DeepMind,True,exact,100.0,2022-05-28,parsed,2022,2,5,DATA_ANALYTICS,Big Data,610.0M USD,610000000,parsed,USD,5,674,2026-08-22T21:58:37.269504+00:00
+ART0675,Uber,Uber,True,exact,100.0,2024-10-08,parsed,2024,4,10,SECURITY,Cybersecurity,"€34,000,000,000",37400000000,parsed,EUR,9,675,2026-08-22T21:58:37.269504+00:00
+ART0676,Databricks,Databricks,True,exact,100.0,2024-10-02,parsed,2024,4,10,SOFTWARE,Enterprise Software,"£2,740,157,480",3480000000,parsed,GBP,21,676,2026-08-22T21:58:37.269504+00:00
+ART0677,Tesla,Tesla,True,exact,100.0,2023-07-06,parsed,2023,3,7,SECURITY,InfoSec,"¥14,100,000,000,000",94000000000,parsed,JPY,15,677,2026-08-22T21:58:37.269504+00:00
+ART0678,Scale AI,Scale AI,True,exact,100.0,2024-04-13,parsed,2024,2,4,DATA_ANALYTICS,Big Data,$0.975B - $1.077B,1026000000,parsed,USD,21,678,2026-08-22T21:58:37.269504+00:00
+ART0679,Cloudflare,Cloudflare,True,exact,100.0,2024-12-23,parsed,2024,4,12,SECURITY,Security,$1647.0 million,1647000000,parsed,USD,26,679,2026-08-22T21:58:37.269504+00:00
+ART0680,SpaceX,SpaceX,True,exact,100.0,2024-02-17,parsed,2024,1,2,SOFTWARE,SaaS,$8.925B,8925000000,parsed,USD,8,680,2026-08-22T21:58:37.269504+00:00
+ART0681,Google DeepMind,DeepMind,True,alias,100.0,2024-05-06,parsed,2024,2,5,CLOUD,Cloud,$1044.0M,1044000000,parsed,USD,7,681,2026-08-22T21:58:37.269504+00:00
+ART0682,Google DeepMind,Google Deepmind,True,exact_ci,100.0,2023-09-14,parsed,2023,3,9,SOFTWARE,SaaS,"$880,000,000",880000000,parsed,USD,6,682,2026-08-22T21:58:37.269504+00:00
+ART0683,OpenAI,OpenAI,True,exact,100.0,2024-04-04,parsed,2024,2,4,AI_ML,AI/ML,$2.790 billion,2790000000,parsed,USD,18,683,2026-08-22T21:58:37.269504+00:00
+ART0684,NVIDIA,NVIDIA,True,exact,100.0,2024-10-14,parsed,2024,4,10,DATA_ANALYTICS,Data Analytics,62100.0M USD,62100000000,parsed,USD,7,684,2026-08-22T21:58:37.269504+00:00
+ART0685,Mistral AI,Mistral AI,False,unmatched,70.58823529411764,2024-03-09,parsed,2024,1,3,SECURITY,InfoSec,"€86,363,636",95000000,parsed,EUR,,685,2026-08-22T21:58:37.269504+00:00
+ART0686,Confluent,Confluent,True,exact,100.0,2023-01-14,parsed,2023,1,1,AI_ML,AI & ML,"£622,047,244",790000000,parsed,GBP,28,686,2026-08-22T21:58:37.269504+00:00
+ART0687,MongoDB,MongoDB,True,exact,100.0,2023-02-10,parsed,2023,1,2,FINTECH,Financial Technology,Not disclosed,,not_disclosed,,15,687,2026-08-22T21:58:37.269504+00:00
+ART0688,Mistral AI,Mistral AI,False,unmatched,70.58823529411764,2023-06-06,parsed,2023,2,6,DATA_ANALYTICS,Analytics,$87.2M - $96.4M,91800000,parsed,USD,,688,2026-08-22T21:58:37.269504+00:00
+ART0689,Meta AI,Meta AI Research,True,alias,100.0,2024-12-19,parsed,2024,4,12,FINTECH,Financial Technology,$1950.0 million,1950000000,parsed,USD,23,689,2026-08-22T21:58:37.269504+00:00
+ART0690,Stripe,Stripe,True,exact,100.0,2024-07-21,parsed,2024,3,7,SOFTWARE,Enterprise Software,$3.774B,3774000000,parsed,USD,22,690,2026-08-22T21:58:37.269504+00:00
+ART0691,Mistral AI,Mistral AI,False,unmatched,70.58823529411764,2024-12-13,parsed,2024,4,12,AI_ML,AI & ML,$260.0M,260000000,parsed,USD,,691,2026-08-22T21:58:37.269504+00:00
+ART0692,Cohere,Cohere,False,unmatched,50.0,2024-06-10,parsed,2024,2,6,AI_ML,AI & ML,"$105,000,000",105000000,parsed,USD,,692,2026-08-22T21:58:37.269504+00:00
+ART0693,Meta AI,Meta AI,True,exact,100.0,2024-05-07,parsed,2024,2,5,DATA_ANALYTICS,Analytics,$1.725 billion,1725000000,parsed,USD,23,693,2026-08-22T21:58:37.269504+00:00
+ART0694,Meta AI,Facebook AI Research,True,alias,100.0,2024-08-11,parsed,2024,3,8,AI_ML,Artificial Intelligence,1830.0M USD,1830000000,parsed,USD,23,694,2026-08-22T21:58:37.269504+00:00
+ART0695,Microsoft,Microsoft,True,exact,100.0,2023-10-18,parsed,2023,4,10,AI_ML,AI/ML,"€70,909,090,909",78000000000,parsed,EUR,5,695,2026-08-22T21:58:37.269504+00:00
+ART0696,Amazon Web Services,Amazon Web Services,True,exact,100.0,2023-04-02,parsed,2023,2,4,SOFTWARE,Software,"£69,685,039,370",88500000000,parsed,GBP,8,696,2026-08-22T21:58:37.269504+00:00
+ART0697,Airbnb,Airbnb,True,exact,100.0,2023-07-02,parsed,2023,3,7,FINTECH,Financial Technology,"¥1,110,000,000,000",7400000000,parsed,JPY,24,697,2026-08-22T21:58:37.269504+00:00
+ART0698,Elastic,Elastic,True,exact,100.0,2024-08-26,parsed,2024,3,8,CLOUD,Cloud Computing,$1.330B - $1.470B,1400000000,parsed,USD,8,698,2026-08-22T21:58:37.269504+00:00
+ART0699,DataRobot,DataRobot,True,exact,100.0,2024-05-03,parsed,2024,2,5,AI_ML,Artificial Intelligence,N/A,,missing,,12,699,2026-08-22T21:58:37.269504+00:00
+ART0700,NVIDIA,Nvidia,True,exact_ci,100.0,2024-10-09,parsed,2024,4,10,DATA_ANALYTICS,Data Analytics,$62.100B,62100000000,parsed,USD,7,700,2026-08-22T21:58:37.269504+00:00
+ART0701,Anthropic,Anthropic,True,exact,100.0,2024-02-26,parsed,2024,1,2,AI_ML,Machine Learning,$602.0M,602000000,parsed,USD,18,701,2026-08-22T21:58:37.269504+00:00
+ART0702,Snowflake,Snowflake,True,exact,100.0,2024-08-15,parsed,2024,3,8,CLOUD,Cloud Computing,"$3,388,000,000",3388000000,parsed,USD,12,702,2026-08-22T21:58:37.269504+00:00
+ART0703,Palantir,Palantir,True,exact,100.0,2023-08-16,parsed,2023,3,8,CLOUD,Cloud Computing,$2.100 billion,2100000000,parsed,USD,18,703,2026-08-22T21:58:37.269504+00:00
+ART0704,Google DeepMind,Google DeepMind,True,exact,100.0,2024-11-12,parsed,2024,4,11,SOFTWARE,Enterprise Software,1215.0M USD,1215000000,parsed,USD,7,704,2026-08-22T21:58:37.269504+00:00
+ART0705,Uber,Uber,True,exact,100.0,2024-06-17,parsed,2024,2,6,SECURITY,Security,"€32,145,454,545",35360000000,parsed,EUR,9,705,2026-08-22T21:58:37.269504+00:00
+ART0706,Databricks,Databricks,True,exact,100.0,2024-02-01,parsed,2024,1,2,DATA_ANALYTICS,Data Analytics,N/A,,missing,,21,706,2026-08-22T21:58:37.269504+00:00
+ART0707,Tesla,Tesla,True,exact,100.0,2023-01-05,parsed,2023,1,1,SECURITY,InfoSec,"¥12,300,000,000,000",82000000000,parsed,JPY,15,707,2026-08-22T21:58:37.269504+00:00
+ART0708,NVIDIA,NVIDIA Corporation,True,alias,100.0,2023-08-05,parsed,2023,3,8,SECURITY,Cybersecurity,$38.475B - $42.525B,40500000000,parsed,USD,6,708,2026-08-22T21:58:37.269504+00:00
+ART0709,Scale AI,Scale AI,True,exact,100.0,2024-05-25,parsed,2024,2,5,SECURITY,Cybersecurity,$1026.0 million,1026000000,parsed,USD,21,709,2026-08-22T21:58:37.269504+00:00
+ART0710,OpenAI,Open AI,True,alias,100.0,2024-10-28,parsed,2024,4,10,FINTECH,FinTech,$4.050B,4050000000,parsed,USD,18,710,2026-08-22T21:58:37.269504+00:00
+ART0711,OpenAI,OpenAI Inc.,True,alias,100.0,2024-10-02,parsed,2024,4,10,SOFTWARE,Enterprise Software,$4050.0M,4050000000,parsed,USD,18,711,2026-08-22T21:58:37.269504+00:00
+ART0712,Cloudflare,Cloudflare,True,exact,100.0,2024-11-03,parsed,2024,4,11,SOFTWARE,Enterprise Software,"$1,647,000,000",1647000000,parsed,USD,26,712,2026-08-22T21:58:37.269504+00:00
+ART0713,SpaceX,SpaceX,True,exact,100.0,2023-01-23,parsed,2023,1,1,SECURITY,Cybersecurity,$7.000 billion,7000000000,parsed,USD,7,713,2026-08-22T21:58:37.269504+00:00
+ART0714,OpenAI,OpenAI,True,exact,100.0,2024-07-15,parsed,2024,3,7,CLOUD,Cloud Computing,3420.0M USD,3420000000,parsed,USD,18,714,2026-08-22T21:58:37.269504+00:00
+ART0715,Cohere,Cohere,False,unmatched,50.0,2024-06-26,parsed,2024,2,6,CLOUD,Cloud Services,N/A,,missing,,,715,2026-08-22T21:58:37.269504+00:00
+ART0716,Databricks,Databricks Inc.,True,alias,100.0,2024-12-26,parsed,2024,4,12,SOFTWARE,Enterprise Software,"£2,740,157,480",3480000000,parsed,GBP,21,716,2026-08-22T21:58:37.269504+00:00
+ART0717,NVIDIA,NVIDIA,True,exact,100.0,2024-08-13,parsed,2024,3,8,CLOUD,Cloud,"¥8,775,000,000,000",58500000000,parsed,JPY,7,717,2026-08-22T21:58:37.269504+00:00
+ART0718,Confluent,Confluent,True,exact,100.0,2024-02-16,parsed,2024,1,2,FINTECH,FinTech,$0.968B - $1.070B,1019000000,parsed,USD,29,718,2026-08-22T21:58:37.269504+00:00
+ART0719,MongoDB,MongoDB,True,exact,100.0,2023-04-02,parsed,2023,2,4,DATA_ANALYTICS,Data Analytics,$1560.0 million,1560000000,parsed,USD,15,719,2026-08-22T21:58:37.269504+00:00
+ART0720,Stripe,Stripe,True,exact,100.0,2024-07-28,parsed,2024,3,7,AI_ML,AI/ML,$3.774B,3774000000,parsed,USD,22,720,2026-08-22T21:58:37.269504+00:00
+ART0721,Meta AI,Meta AI,True,exact,100.0,2024-04-04,parsed,2024,2,4,FINTECH,FinTech,N/A,,missing,,23,721,2026-08-22T21:58:37.269504+00:00
+ART0722,Microsoft,Microsoft,True,exact,100.0,2024-03-12,parsed,2024,1,3,AI_ML,Artificial Intelligence,"$79,170,000,000",79170000000,parsed,USD,6,722,2026-08-22T21:58:37.269504+00:00
+ART0723,Amazon Web Services,Amazon Web Services,True,exact,100.0,2024-06-08,parsed,2024,2,6,DATA_ANALYTICS,Big Data,N/A,,missing,,9,723,2026-08-22T21:58:37.269504+00:00
+ART0724,Snowflake,Snowflake Inc.,True,alias,100.0,2022-07-22,parsed,2022,3,7,SOFTWARE,Software,2050.0M USD,2050000000,parsed,USD,10,724,2026-08-22T21:58:37.269504+00:00
+ART0725,Airbnb,Airbnb,True,exact,100.0,2024-04-08,parsed,2024,2,4,AI_ML,AI/ML,Not disclosed,,not_disclosed,,25,725,2026-08-22T21:58:37.269504+00:00
+ART0726,Cloudflare,CloudFlare,True,exact_ci,100.0,2024-03-06,parsed,2024,1,3,SOFTWARE,Enterprise Software,"£1,126,771,654",1431000001,parsed,GBP,26,726,2026-08-22T21:58:37.269504+00:00
+ART0727,Elastic,Elastic,True,exact,100.0,2022-07-18,parsed,2022,3,7,AI_ML,AI & ML,"¥154,500,000,000",1030000000,parsed,JPY,6,727,2026-08-22T21:58:37.269504+00:00
+ART0728,DataRobot,DataRobot,True,exact,100.0,2024-04-08,parsed,2024,2,4,SECURITY,Security,$368.6M - $407.4M,388000000,parsed,USD,12,728,2026-08-22T21:58:37.269504+00:00
+ART0729,Anthropic,Anthropic,True,exact,100.0,2023-08-11,parsed,2023,3,8,SOFTWARE,Software,$430.0 million,430000000,parsed,USD,17,729,2026-08-22T21:58:37.269504+00:00
+ART0730,Snowflake,Snowflake,True,exact,100.0,2024-07-08,parsed,2024,3,7,CLOUD,Cloud Services,$3.388B,3388000000,parsed,USD,12,730,2026-08-22T21:58:37.269504+00:00
+ART0731,DataRobot,Data Robot,True,alias,100.0,2024-07-04,parsed,2024,3,7,SECURITY,Security,$399.0M,399000000,parsed,USD,12,731,2026-08-22T21:58:37.269504+00:00
+ART0732,MongoDB,Mongo DB,True,alias,100.0,2024-03-08,parsed,2024,1,3,AI_ML,Machine Learning,"$1,785,000,000",1785000000,parsed,USD,16,732,2026-08-22T21:58:37.269504+00:00
+ART0733,Palantir,Palantir Technologies,True,alias,100.0,2024-03-26,parsed,2024,1,3,SECURITY,Security,$2.392 billion,2392000000,parsed,USD,19,733,2026-08-22T21:58:37.269504+00:00
+ART0734,The Boring Company / SpaceX,The Boring Company / SpaceX,False,unmatched,36.36363636363637,2024-12-12,parsed,2024,4,12,FINTECH,Finance,9945.0M USD,9945000000,parsed,USD,,734,2026-08-22T21:58:37.269504+00:00
+ART0735,Palantir,Palantir,True,exact,100.0,2024-08-27,parsed,2024,3,8,SECURITY,Cybersecurity,"€2,341,818,182",2576000000,parsed,EUR,19,735,2026-08-22T21:58:37.269504+00:00
+ART0736,Google DeepMind,Google DeepMind,True,exact,100.0,2024-12-21,parsed,2024,4,12,SECURITY,Security,"£956,692,913",1215000000,parsed,GBP,7,736,2026-08-22T21:58:37.269504+00:00
+ART0737,Uber,Uber,True,exact,100.0,2024-02-28,parsed,2024,1,2,SECURITY,Security,"¥5,202,000,000,000",34680000000,parsed,JPY,9,737,2026-08-22T21:58:37.269504+00:00
+ART0738,Databricks,Databricks,True,exact,100.0,2024-02-25,parsed,2024,1,2,AI_ML,Machine Learning,$2.508B - $2.772B,2640000000,parsed,USD,21,738,2026-08-22T21:58:37.269504+00:00
+ART0739,xAI,xAI,False,unmatched,44.44444444444444,2024-09-04,parsed,2024,3,9,SOFTWARE,Software,,,missing,,,739,2026-08-22T21:58:37.269504+00:00
+ART0740,Tesla,Tesla,True,exact,100.0,2024-07-01,parsed,2024,3,7,AI_ML,AI & ML,$98.880B,98880000000,parsed,USD,16,740,2026-08-22T21:58:37.269504+00:00
+ART0741,Scale AI,Scale AI,True,exact,100.0,2024-01-05,parsed,2024,1,1,AI_ML,AI/ML,$897.0M,897000000,parsed,USD,21,741,2026-08-22T21:58:37.269504+00:00
+ART0742,Cloudflare,Cloudflare,True,exact,100.0,2023-06-28,parsed,2023,2,6,SOFTWARE,Software,Not disclosed,,not_disclosed,,25,742,2026-08-22T21:58:37.269504+00:00
+ART0743,SpaceX,SpaceX,True,exact,100.0,2024-10-22,parsed,2024,4,10,FINTECH,Financial Technology,$9.945 billion,9945000000,parsed,USD,8,743,2026-08-22T21:58:37.269504+00:00
+ART0744,OpenAI,OpenAI,True,exact,100.0,2024-09-17,parsed,2024,3,9,DATA_ANALYTICS,Analytics,3420.0M USD,3420000000,parsed,USD,18,744,2026-08-22T21:58:37.269504+00:00
+ART0745,NVIDIA,NVIDIA,True,exact,100.0,2024-09-08,parsed,2024,3,9,FINTECH,FinTech,"€53,181,818,182",58500000000,parsed,EUR,7,745,2026-08-22T21:58:37.269504+00:00
+ART0746,Stripe,Stripe Inc.,True,alias,100.0,2024-12-02,parsed,2024,4,12,SOFTWARE,SaaS,"£3,078,740,157",3909999999,parsed,GBP,22,746,2026-08-22T21:58:37.269504+00:00
+ART0747,Confluent,Confluent,True,exact,100.0,2022-01-26,parsed,2022,1,1,CLOUD,Cloud,"¥90,000,000,000",600000000,parsed,JPY,27,747,2026-08-22T21:58:37.269504+00:00
+ART0748,MongoDB,MongoDB,True,exact,100.0,2024-11-13,parsed,2024,4,11,DATA_ANALYTICS,Analytics,$1.954B - $2.160B,2057000000,parsed,USD,16,748,2026-08-22T21:58:37.269504+00:00
+ART0749,xAI,xAI,False,unmatched,44.44444444444444,2024-11-07,parsed,2024,4,11,AI_ML,Machine Learning,$180.0 million,180000000,parsed,USD,,749,2026-08-22T21:58:37.269504+00:00
+ART0750,Cohere,Cohere,False,unmatched,50.0,2024-07-15,parsed,2024,3,7,DATA_ANALYTICS,Big Data,$0.135B,135000000,parsed,USD,,750,2026-08-22T21:58:37.269504+00:00
