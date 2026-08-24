@@ -75,6 +75,8 @@ def run(skip_embeddings: bool = False, output_dir: Path | None = None) -> dict[s
     print(f"      {len(ai_articles_enriched)} qualifying AI articles")
 
     print("[6/6] Writing CSV outputs...")
+    exports.write_csv(bronze_articles, "bronze_articles.csv", output_dir)
+    exports.write_csv(bronze_metadata, "bronze_metadata.csv", output_dir)
     exports.write_csv(dim_company, "dim_company.csv", output_dir)
     exports.write_csv(fact_arr_observations, "fact_arr_observations.csv", output_dir)
     exports.write_csv(latest_arr_per_company, "gold_latest_arr_per_company.csv", output_dir)
