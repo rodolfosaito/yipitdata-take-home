@@ -21,6 +21,25 @@ lineage, and design trade-offs. This file covers installation and usage.
   with embeddings enabled (to download the model). Everything else runs
   fully offline.
 
+## Libraries used
+
+Everything below is pinned in [requirements.txt](requirements.txt) and
+installed into `.venv` (see Installation). Versions shown are what's
+actually installed in the tested `.venv`.
+
+| Library | Version | What it's used for |
+|---|---|---|
+| [pandas](https://pandas.pydata.org/) | 3.0.5 | The core data structure for every layer (bronze/silver/gold DataFrames), CSV read/write, joins, groupby aggregations for the derived views. |
+| [numpy](https://numpy.org/) | 2.4.6 | Backs pandas; used directly for embedding vector math (L2 normalization, cosine similarity, `argsort` for top-k lookups). |
+| [duckdb](https://duckdb.org/) | 1.5.5 | The optional local warehouse database. Stores the gold tables + article embeddings, does the upsert loads, and runs `hybrid_search` (SQL filters combined with its native `list_cosine_similarity` for vector ranking). |
+| [rapidfuzz](https://github.com/rapidfuzz/RapidFuzz) | 3.14.5 | Fuzzy string matching (`fuzz.ratio`) — the last-resort step in company-name resolution, after exact/alias matching fails. |
+| [sentence-transformers](https://www.sbert.net/) | 6.0.0 | Loads `all-MiniLM-L6-v2` and encodes article `title + summary` text into 384-dim embeddings for semantic search. Pulls in **PyTorch** and Hugging Face's **transformers**/**huggingface-hub** as transitive dependencies (the actual model runtime + model download/cache); those aren't imported directly by this project's code. |
+| [pytest](https://docs.pytest.org/) | 9.1.1 | Test runner for the 117 unit/integration tests in `tests/`. |
+
+Everything else (`json`, `re`, `datetime`, `dataclasses`, `pathlib`,
+`argparse`) is Python 3.11 standard library — no extra install needed for
+those.
+
 ## Installation
 
 Run these from the project root (the folder containing this README).
@@ -74,21 +93,20 @@ python -m pipeline.run_pipeline --skip-embeddings
 Typical full-run console output:
 
 ```
-[1/6] Loading bronze layer...
-      750 article rows, 21 company metadata rows
-[2/6] Building silver layer...
-      arr_status: parsed=558 missing=107 not_disclosed=85 unparseable=0
-      date_status unparseable=0
-      company resolution: unmatched=28 / 750
-[3/6] Building gold layer (dim_company, fact_arr_observations, views)...
-[4/6] Generating article embeddings (sentence-transformers, first run downloads the model)...
-      750 embeddings x 384 dims saved
-[5/6] Building ai_articles_enriched.csv...
-      121 qualifying AI articles
-[6/6] Writing CSV outputs...
-      Loading gold tables + embeddings into DuckDB...
+[bronze] Loading raw source files...
+         750 article rows, 21 company metadata rows
+[silver] Cleaning + resolving...
+         arr_status: parsed=558 missing=107 not_disclosed=85 unparseable=0
+         date_status unparseable=0
+         company resolution: unmatched=28 / 750
+[gold] Building dim_company, fact_arr_observations, views...
+[embeddings] Generating article embeddings (sentence-transformers, first run downloads the model)...
+             750 embeddings x 384 dims saved
+[exports] Building ai_articles_enriched.csv...
+          121 qualifying AI articles
 
-Done in ~21s. Outputs written to .../output
+Done in ~20-60s (first run downloads the embedding model; subsequent runs
+are the faster end of that range). Outputs written to .../output
 ```
 
 The pipeline is safe to re-run at any time: CSVs are fully recomputed and
@@ -97,6 +115,30 @@ overwritten each run, and the DuckDB loader upserts on each table's key
 `article_embeddings`, `company_key` for `dim_company`) rather than
 appending — see `tests/test_idempotency.py` and
 [DATA_ARCHITECTURE.md §7](DATA_ARCHITECTURE.md#7-re-running-the-pipeline--idempotency).
+
+### Running a single stage
+
+Every layer (bronze/silver/gold/embeddings/exports) can also be run on its
+own with `--stage`, reading its input from the DuckDB checkpoint the
+previous stage left in `output/warehouse.duckdb` instead of recomputing it
+in-process:
+
+```bash
+python -m pipeline.run_pipeline --stage bronze       # read source files, checkpoint + export bronze only
+python -m pipeline.run_pipeline --stage silver        # requires a bronze checkpoint; reads it, doesn't touch tech_news.csv directly
+python -m pipeline.run_pipeline --stage gold           # requires a silver checkpoint
+python -m pipeline.run_pipeline --stage embeddings      # requires a silver checkpoint
+python -m pipeline.run_pipeline --stage exports          # requires silver + gold checkpoints
+```
+
+Running a stage before its dependency has been checkpointed fails with an
+actionable message telling you which stage to run first, instead of a
+confusing downstream error. If you run a single stage against a stale
+upstream checkpoint (e.g. `tech_news.csv` changed since `--stage bronze`
+last ran), you'll get a non-fatal warning by default; pass
+`--strict-checkpoints` to turn that into a hard failure instead. See
+[DATA_ARCHITECTURE.md §8](DATA_ARCHITECTURE.md#8-running-pipeline-stages-independently)
+for the full design and trade-offs.
 
 ## Regenerating all required CSV outputs
 
@@ -111,9 +153,11 @@ appending — see `tests/test_idempotency.py` and
 | `gold_latest_arr_per_company.csv` | Derived view: most recent parsed ARR per company |
 | `gold_quarterly_arr.csv` | Derived view: one representative ARR per company per quarter |
 | `unmatched_companies.csv` | Companies referenced by articles with no metadata match, for triage |
+| `bronze_articles.csv` | Supplementary: `tech_news.csv` read as-is (untouched raw strings) + lineage columns |
+| `bronze_company_metadata.csv` | Supplementary: `company_metadata.json` flattened as-is + lineage columns |
 | `silver_articles.csv` | Supplementary: every article with raw *and* cleaned columns side by side (lineage/debugging) |
 | `silver_company_metadata.csv` | Supplementary: cleaned company metadata |
-| `warehouse.duckdb` | Optional persisted DuckDB database with the gold tables + embeddings loaded |
+| `warehouse.duckdb` | Optional persisted DuckDB database: every layer (bronze/silver/gold) + embeddings, each as an independently re-loadable checkpoint (see [Running a single stage](#running-a-single-stage)) |
 | `article_embeddings.npy` / `article_embeddings_index.csv` | Persisted embeddings (skipped with `--skip-embeddings`) |
 
 `ai_articles_enriched.csv` includes articles where **(article category
@@ -128,13 +172,13 @@ not-disclosed/unparseable ARR never passes this filter.
 python -m pytest -q
 ```
 
-117 tests, all fast (~2s, no network/model download needed — the unit tests
+130 tests, all fast (~4s, no network/model download needed — the unit tests
 exercise the cleaning/resolution/gold-layer functions directly with real
 messy values pulled from `tech_news.csv`, plus DuckDB-backed idempotency
-tests using `tmp_path`). Confirmed passing:
+and stage-checkpoint tests using `tmp_path`). Confirmed passing:
 
 ```
-117 passed in 1.93s
+130 passed in 4.60s
 ```
 
 ## Example usage
@@ -224,13 +268,14 @@ pipeline/
   gold.py                   dim_company, fact_arr_observations, derived views
   exports.py                ai_articles_enriched.csv + CSV writer
   embeddings.py             sentence-transformers embeddings, similarity search
-  duckdb_loader.py          DuckDB upsert loaders + hybrid_search
-  run_pipeline.py            orchestrator / CLI entrypoint
+  duckdb_loader.py          DuckDB checkpoint/upsert loaders, hybrid_search
+  run_pipeline.py            per-stage functions + --stage CLI entrypoint
 tests/
   test_cleaning.py             revenue/date/category, real messy fixtures
   test_company_resolution.py   exact/alias/case/fuzzy/unmatched, real names
   test_gold_and_exports.py     grain, lineage, AI-article filter correctness
   test_idempotency.py          DuckDB upsert + full-pipeline re-run proof
+  test_stage_pipeline.py       checkpoint round-trip, --stage dispatch, staleness
 output/                    generated CSVs + warehouse.duckdb (gitignored contents
                             regenerate via `python -m pipeline.run_pipeline`)
 DATA_ARCHITECTURE.md       data model, lineage, and design trade-offs

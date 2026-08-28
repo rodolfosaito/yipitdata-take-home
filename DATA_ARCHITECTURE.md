@@ -29,6 +29,8 @@ as a string, no parsing, no joins. Each row gets `_source_row_number`,
 `_source_file`, and `_loaded_at` lineage columns. Nothing is dropped or
 reinterpreted here — this is the layer you'd point at raw S3/landing-zone
 files in production and it never changes shape based on downstream logic.
+Exported as `bronze_articles.csv` / `bronze_company_metadata.csv` so the
+very first hop of lineage is inspectable without re-running any code.
 
 **Silver** (`pipeline/silver.py`) is one row per bronze row, typed and
 cleaned, with the *original raw string preserved alongside* every derived
@@ -198,7 +200,67 @@ run). `tests/test_idempotency.py` proves both:
 - Rebuilding `fact_arr_observations` from the real source files twice
   produces byte-identical output (aside from the `_loaded_at` timestamp).
 
-## 8. Backfills, new batches, and schema changes in a production setting
+## 8. Running pipeline stages independently
+
+Each layer's build functions (`silver.build_silver_articles`,
+`gold.build_dim_company`, etc.) have always been pure — a DataFrame in, a
+DataFrame out, no disk I/O. What made the *pipeline as a whole* only
+runnable end-to-end wasn't those functions, it was `run_pipeline.py`:
+everything flowed through Python variables inside one `run()` call, and
+while bronze/silver were exported to CSV for audit, nothing downstream ever
+read those CSVs back in — so even "just run silver" had no bronze data to
+start from without recomputing it.
+
+`pipeline/duckdb_loader.py` now checkpoints every layer (bronze, silver,
+gold) as its own DuckDB table, reusing the same idempotent `_upsert` this
+project already relies on for gold (§7) — `save_checkpoint`/
+`load_checkpoint`/`checkpoint_exists`. `run_pipeline.py` exposes one stage
+function per layer (`run_bronze`, `run_silver`, `run_gold`, `run_embeddings`,
+`run_exports`), each shaped as **read input → compute (the same unchanged
+pure `build_*` call) → checkpoint → CSV export**:
+
+- `python -m pipeline.run_pipeline --stage silver` reads the
+  `bronze_articles`/`bronze_company_metadata` checkpoints, builds silver,
+  and writes a new `silver_articles`/`silver_company_metadata` checkpoint —
+  no bronze recomputation needed, and no in-memory object from a prior
+  process required.
+- `python -m pipeline.run_pipeline` (`--stage all`, the default) still runs
+  every stage in one process, passing each stage's output directly to the
+  next as a function argument — it never round-trips through its own
+  checkpoint to obtain input it just computed, so the common case is exactly
+  as fast as before this change. Checkpointing happens as a side effect, for
+  a *future* standalone run to use.
+- Running a stage before its dependency has ever been checkpointed fails
+  with an actionable message (`"Run --stage bronze first, or --stage all"`)
+  rather than a confusing downstream error.
+- A lightweight `_checkpoint_meta` table records the `(mtime, size)`
+  signature of `tech_news.csv`/`company_metadata.json` at the time each
+  checkpoint was built. A standalone stage run compares that against the
+  current source files and prints a warning (or, with
+  `--strict-checkpoints`, raises) if they've diverged — e.g. running
+  `--stage silver` days after `--stage bronze`, against a source file that
+  changed in between. This is a cheap mtime/size check, not a content hash
+  or a real data-versioning system, and is documented as such — it catches
+  "you forgot to re-run bronze," not "bronze ran against corrupted input."
+
+DuckDB (not a CSV round-trip) is the checkpoint format specifically because
+it preserves dtypes exactly — verified for this project's two concrete
+gotchas (`Int64` columns with `pd.NA` don't get silently promoted to
+`float64`+`NaN`, and a cell whose literal value is the string `"N/A"`
+doesn't get reinterpreted as null on read-back) — see
+`tests/test_stage_pipeline.py::test_checkpoint_roundtrip_preserves_nullable_int_and_na_string_literal`.
+CSVs remain the audit/deliverable exports; they are not, and never were,
+what any stage reads to obtain its input.
+
+This is deliberately scoped to CLI-level stage separation, not a scheduler:
+no Airflow/Dagster DAG, no separate metadata database, no task retries —
+those stay future work (§9's Orchestration bullet, below), since this
+pipeline's actual runtime (~20s including a cold model download; sub-second
+for everything except embeddings) doesn't need them to demonstrate the
+thing being asked for, which is that the layer boundaries are real and
+independently runnable, not just files organized into separate modules.
+
+## 9. Backfills, new batches, and schema changes in a production setting
 
 This exercise runs entirely as a local batch: read two files, produce
 some CSVs and a DuckDB file. Adapting the same model to run reliably and
@@ -242,9 +304,13 @@ recur in production:
   discrete tasks in Airflow/Dagster with per-layer freshness checks (e.g.
   "gold ran only after silver's row count for this batch stabilized"), and
   the CSV/DuckDB outputs would become external tables or a real warehouse
-  schema rather than files on disk.
+  schema rather than files on disk. §8 above already makes those four
+  layers independently runnable and checkpointed at the CLI level — a real
+  scheduler would call the same `run_bronze`/`run_silver`/`run_gold`/
+  `run_exports` functions as separate tasks rather than needing new seams
+  cut into the pipeline first.
 
-## 9. Key assumptions and trade-offs (for the live review)
+## 10. Key assumptions and trade-offs (for the live review)
 
 - **Date ambiguity rule**: for numeric `MM/DD/YYYY`-or-`DD/MM/YYYY`-shaped
   dates (both `/` and `-` separated — both separators are observed with a
@@ -268,7 +334,7 @@ recur in production:
   against the real 46 distinct `company_name` values, not chosen blind.
 - **`company_key` as a natural key**: simplifies idempotency for this
   exercise; a production system at scale would add a surrogate key (see
-  §8).
+  §9).
 - **`ai_articles_enriched.company_name`**: populated from the *resolved*
   `company_key` (canonical name when matched, raw name when not), not the
   raw `company_name` column, since this export is meant to be analysis-
